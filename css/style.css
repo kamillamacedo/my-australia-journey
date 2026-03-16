@@ -1,3 +1,17 @@
+:root{
+    --background-primary-color: #FFFFFF;
+    --background-secondary-color:#F5F5F5;
+    --background-tertiary-color:#000000;
+
+    --button-primary-color: #8F0101;
+    --button-secondary-color:#B81515;
+
+    --text-primary-color: #222222;
+    --text-secondary-color:#FFFFFF;
+
+    --highlight-color: rgb(35, 80, 204);
+}
+
 *{
     margin: 0;
     padding:0;
