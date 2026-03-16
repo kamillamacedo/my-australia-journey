@@ -10,10 +10,18 @@
     --text-secondary-color:#FFFFFF;
 
     --highlight-color: rgb(35, 80, 204);
+
+    --title-weight: 770;
+    --text-weight: 400;
+    --menu-text-weight: 400;
 }
 
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
 }
