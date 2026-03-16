@@ -1,4 +1,4 @@
-#My Australia Journey
+# My Australia Journey
 
 This project was inspired by my personal experience traveling to Australia in 2009.
 
