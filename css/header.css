@@ -2,14 +2,27 @@ header{
     width: 100vw;
     height: 138px;
     background-color: var(--background-tertiary-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 46px;
 }
 .compass-logo{
     display: inline-block;
-    width: 5vw;
-    min-width: 65px;
+    width: 90px;
+    min-width: 58px;
+
+}
+
+.compass-logo img{
+    width: 100%;  
 }
 
 .main-logo{
     display: none;
-    margin: 37px  0 0 48px;
+}
+
+nav{
+    display: none;
 }
