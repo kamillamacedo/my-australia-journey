@@ -33,19 +33,51 @@ input[type="checkbox"]:checked ~ nav {
   background-color: var(--background-tertiary-color);
 }
 
-nav {
+.navigation-menu nav {
   display: none;
 }
 
 .list-links {
   list-style-type: none;
+  font-weight: var(--menu-text-weight);
 }
 
 .list-links li {
-  margin: 16px 0 ;
+  margin: 16px 0;
 }
 
-.list-links li a{
-    text-decoration: none;
-    color: var(--text-secondary-color);
+.list-links li a {
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+@media screen and (min-width: 765px) {
+  .compass-logo {
+    display: none;
+  }
+
+  .main-logo {
+    display: block;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .list-links {
+    display: flex;
+    justify-content: space-between;
+    width: 467px;
+    padding: 0;
+  }
+
+  .list-links li {
+    margin: 0;
+  }
 }
