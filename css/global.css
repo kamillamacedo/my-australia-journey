@@ -11,7 +11,7 @@
 
   --highlight-color: rgb(35, 80, 204);
 
-  --title-weight: 770;
+  --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 400;
 }
@@ -42,8 +42,28 @@ body {
 
 }
 
+.view-button{
+    width: 280px;
+    height: 64px;
+    padding: 16px 74px;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color:var(--text-secondary-color) ;
+    font-size: 20px;
+    font-weight: var(--title-weight);
+}
+
+
 @media screen and (min-width: 768px) {
 .section-title h2{
   font-size: 32px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+.view-button:hover{
+    background-color: var(--primary-color);
 }
 }
