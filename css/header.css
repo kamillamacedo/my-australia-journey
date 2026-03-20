@@ -1,4 +1,4 @@
-header {
+.page-header{
   width: 100vw;
   height: 120px;
   background-color: var(--background-tertiary-color);
@@ -54,7 +54,7 @@ input[type="checkbox"]:checked ~ nav {
 }
 
 @media screen and (min-width: 768px) {
-   header {
+   .page-header {
     padding: 38px 60px;
   }
  
@@ -87,7 +87,7 @@ input[type="checkbox"]:checked ~ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .page-header {
     padding: 38px 120px;
   }
 
@@ -105,7 +105,7 @@ input[type="checkbox"]:checked ~ nav {
 }
 
 @media screen and (min-width: 1920px) {
-  header {
+  .page-header {
     padding: 38px 160px;
   }
 }
