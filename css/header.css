@@ -11,7 +11,7 @@ header {
 }
 .compass-logo {
   display: inline-block;
-  width: 90px;
+  width: 80px;
   min-width: 58px;
 }
 
@@ -53,7 +53,11 @@ input[type="checkbox"]:checked ~ nav {
   font-size: 24px;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 768px) {
+   header {
+    padding: 38px 60px;
+  }
+ 
   .compass-logo {
     display: none;
   }
