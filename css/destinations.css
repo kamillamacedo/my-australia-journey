@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     gap:24px;
+    margin-bottom: 56px;
 }
 
 .card{
@@ -59,7 +60,7 @@
 
 @media screen and (min-width: 1024px) {
     .card{
-        width: 420px;
+        width: 480px;
         height: 308px;
     }
 
@@ -78,6 +79,6 @@
 @media screen and (min-width: 1920px) {
     .destinations-cards{
         width: 1250px;
-        margin: 0 auto;
+        margin: 0 auto 56px;
 }
 }
