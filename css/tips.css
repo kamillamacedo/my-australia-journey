@@ -1,0 +1,23 @@
+.tips-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+
+.tips-cards a{
+    display: inline-block;
+    
+    width: 312px;
+    height: 220px;
+    background-color: var(--background-secondary-color);
+    padding: 24px 16px;
+
+
+    font-size: 28px;
+    font-weight: var(--title-weight) ;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-primary-color);
+}
