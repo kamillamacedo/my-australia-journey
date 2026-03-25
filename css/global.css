@@ -9,11 +9,14 @@
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
 
-  --highlight-color: rgb(35, 80, 204);
-
   --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 400;
+  
+  --highlight-color: rgb(35, 80, 204);
+
+  --timeline-color: #dcdcdc;
+  --timeline-align:1.2em
 }
 
 * {

@@ -53,3 +53,14 @@
     width: 384px;
   }
 }
+
+@media screen and (min-width: 1920px) {
+.tips-cards {
+    width: 1400px;
+  }
+
+  .tips-cards a{
+    width: 450px;
+  }
+
+}

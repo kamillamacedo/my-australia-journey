@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 1024px) {
     .card{
-        width: 480px;
+        width: 470px;
         height: 308px;
     }
 
@@ -78,7 +78,10 @@
 
 @media screen and (min-width: 1920px) {
     .destinations-cards{
-        width: 1250px;
+        width: 1400px;
         margin: 0 auto 56px;
-}
+    }
+    .card{
+        width: 650px;
+    }
 }
