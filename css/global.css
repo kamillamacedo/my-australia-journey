@@ -46,15 +46,18 @@ body {
 }
 
 .view-button{
+    display: block;
     width: 280px;
     height: 64px;
-    padding: 16px 74px;
+    text-align: center;
+    align-content: center;
     border-radius: 8px;
     background-color: var(--secondary-color);
     text-decoration: none;
     color:var(--text-secondary-color) ;
     font-size: 20px;
     font-weight: var(--title-weight);
+    margin: 0 auto;
 }
 
 
