@@ -13,7 +13,8 @@
   --text-weight: 400;
   --menu-text-weight: 400;
   
-  --highlight-color: rgb(35, 80, 204);
+  --highlight-primary-color: rgb(35, 80, 204);
+  --highlight-secondary-color: rgb(13, 29, 63);
 
   --timeline-color: #dcdcdc;
   --timeline-align:1.2em

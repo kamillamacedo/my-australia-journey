@@ -23,6 +23,8 @@
 
 .gallery .view-button{
     margin: 50px auto;
+    background-color: var(--highlight-secondary-color);
+    border-radius: 40px;
 }
 
 @media screen and (min-width:768px) {
@@ -42,6 +44,17 @@
 @media screen and (min-width:1024px) {
     .gallery-grid{
         width: 990px;
+        position: relative;
+    }
+
+    .gallery-grid::before{
+        content: "";
+        position: absolute;
+        width: 110%;
+        height: 75%;
+        background: var(--highlight-secondary-color);
+        z-index: -1;
+
     }
 }
 
