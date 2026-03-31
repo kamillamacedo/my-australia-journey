@@ -12,12 +12,12 @@
   --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 400;
-  
+
   --highlight-primary-color: rgb(35, 80, 204);
   --highlight-secondary-color: rgb(13, 29, 63);
 
   --timeline-color: #dcdcdc;
-  --timeline-align:1.2em
+  --timeline-align: 1.2em;
 }
 
 * {
@@ -31,66 +31,82 @@ body {
   color: var(--text-primary-color);
 }
 
-section{
+section {
+  width: 312px;
   margin: 0 auto 88px;
 }
 
-section.hero{
+section.hero {
   width: 100%;
   margin: 0;
-
 }
 
-.section-title{
+.section-title {
   width: 280px;
   margin: 0 auto 32px;
 }
 
-.section-title h2{
+.section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   text-align: center;
 }
 
-.section-title hr{
+.section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
   border: none;
-  margin:16px auto 32px;
-
+  margin: 16px auto 32px;
 }
 
-.view-button{
-    display: block;
-    width: 280px;
-    height: 64px;
-    text-align: center;
-    align-content: center;
-    border-radius: 8px;
-    background-color: var(--secondary-color);
-    text-decoration: none;
-    color:var(--text-secondary-color) ;
-    font-size: 20px;
-    font-weight: var(--title-weight);
-    margin: 0 auto;
+.view-button {
+  display: block;
+  width: 280px;
+  height: 64px;
+  text-align: center;
+  align-content: center;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  margin: 0 auto;
 }
-
 
 @media screen and (min-width: 768px) {
-.section-title{
-  width: 100%;
+  section {
+    width: 650px;
+  }
 
-}
+  .section-title {
+    width: 100%;
+  }
 
-.section-title h2{
-  font-size: 32px;
-}
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  section {
+    width: 900px;
+  }
 
-.view-button:hover{
+  .view-button:hover {
     background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  section{
+    width: 1400px;
 }
 }

@@ -32,7 +32,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        width: 650px;
     }
 
     .gallery-card{
@@ -43,7 +42,6 @@
 
 @media screen and (min-width:1024px) {
     .gallery-grid{
-        width: 990px;
         position: relative;
     }
 
@@ -59,10 +57,6 @@
 }
 
 @media screen and (min-width: 1440px){
-    .gallery-grid{
-    width: 1200px;
-    }
-    
     .gallery-card{
     width: 380px;
     height: 480px;
@@ -72,9 +66,6 @@
 
 @media screen and (min-width: 1920px){
 
-    .gallery-grid{
-        width: 1400px;
-    }
     .gallery-card{
         width: 450px;
         height: 550px;

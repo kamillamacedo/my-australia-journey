@@ -1,9 +1,9 @@
 .tips-cards {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  align-items: center;
+  justify-content: center;
   margin: 0 auto;
+  gap: 24px;
 }
 
 .tips-cards a {
@@ -32,23 +32,17 @@
   .tips-cards {
     flex-direction: row;
     flex-wrap: wrap;
-
-    width: 650px;
-    gap: 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .tips-cards {
-    width: 990px;
+  
+  .tips-cards a{
+    width: 380px;
   }
 }
 
 @media screen and (min-width: 1440px){
-    .tips-cards {
-    width: 1200px;
-  }
-
   .tips-cards a{
     width: 384px;
   }
