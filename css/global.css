@@ -105,8 +105,8 @@ section.hero {
   }
 }
 
-@media screen and (min-width: 1920px){
-  section{
+@media screen and (min-width: 1920px) {
+  section {
     width: 1400px;
-}
+  }
 }

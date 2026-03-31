@@ -48,8 +48,8 @@
     .gallery-grid::before{
         content: "";
         position: absolute;
-        width: 110%;
-        height: 75%;
+        width: 80%;
+        height: 90%;
         background: var(--highlight-secondary-color);
         z-index: -1;
 
@@ -60,6 +60,11 @@
     .gallery-card{
     width: 380px;
     height: 480px;
+    }
+
+    .gallery-grid::before{
+    width: 110%;
+    height: 75%;
     }
 
 }
