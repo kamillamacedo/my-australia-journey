@@ -26,6 +26,7 @@
     background: url(../img/cottesloe-card.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card.card.hillarys{
@@ -38,11 +39,13 @@
     background: url(../img/lancelin-card.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .card.card.denmark{
     background: url(../img/denmark-card.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
