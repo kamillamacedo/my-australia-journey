@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
-  margin: 32px auto 88px;
+  margin: 0 auto;
 }
 
 .tips-cards a {

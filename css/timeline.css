@@ -7,7 +7,7 @@
 .timeline-wrapper{
     position: relative;
     max-width:340px;
-    margin: 32px auto;
+    margin: 32px auto 0;
     padding: 24px 0;
 }
 
