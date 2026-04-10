@@ -85,7 +85,6 @@
 
   .gallery-card.large {
     width: 380px;
-    grid-column: span 1;
   }
 
   .gallery-grid::before {
