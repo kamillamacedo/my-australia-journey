@@ -98,4 +98,8 @@
     width: 450px;
     height: 550px;
   }
+  .gallery-card.large {
+    width: 450px;
+  }
+
 }

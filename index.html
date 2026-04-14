@@ -508,18 +508,18 @@
 
         <form class="guestbook-form" action="#" method="post">
           <div class="form-group">
-            <label for="user-name">Name</label>
+            <label for="user-name">Name:</label>
             <input
               type="text"
               name="name"
               id="user-name"
-              placeholder="Your name"
+              placeholder=" Your name"
               required
             />
           </div>
 
           <div class="form-group">
-            <label>Your rating</label>
+            <label>Your rating:</label>
             <div class="rating">
               <input type="radio" id="rating-5" name="rating" value="5" />
               <label for="rating-5">★</label>
@@ -535,13 +535,13 @@
           </div>
 
           <div class="form-group">
-            <label for="user-message">Comment</label>
+            <label for="user-message">Comment:</label>
             <textarea
               name="message"
               id="user-message"
               rows="4"
               cols="30"
-              placeholder="Write your experience here"
+              placeholder=" Write your experience here"
             ></textarea>
           </div>
 
@@ -550,13 +550,35 @@
 
         <div class="guest-entries">
           <article class="entry">
-            <header class="entry-profile">
-              <h4>Anna Bruke</h4>
+            <header>
+              <h4 class="entry-profile">Anna Bruke</h4>
               <div class="entry-rating">★★★★★</div>
             </header>
             <footer>
               <div class="entry-comment">
                 <p>Loved the photos and travel story. Very inspiring!</p>
+              </div>
+            </footer>
+          </article>
+          <article class="entry">
+            <header>
+              <h4 class="entry-profile">Tom Staford</h4>
+              <div class="entry-rating">★★★★★</div>
+            </header>
+            <footer>
+              <div class="entry-comment">
+                <p>The Denmark pictures are so pretty that I want to go there!</p>
+              </div>
+            </footer>
+          </article>
+          <article class="entry">
+            <header>
+              <h4 class="entry-profile">Joffrey Targaryen</h4>
+              <div class="entry-rating">★★</div>
+            </header>
+            <footer>
+              <div class="entry-comment">
+                <p>The trip sounds cool, but the pictures I take on my calculator have better resolution than the ones I see here.</p>
               </div>
             </footer>
           </article>
