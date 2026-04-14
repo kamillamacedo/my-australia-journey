@@ -1,0 +1,144 @@
+.guestbook-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.form-group input[type="text"]{
+    line-height: 24px;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+  width: 100%;
+  max-width: 600px;
+}
+
+.rating {
+  color: var(--secondary-color);
+}
+
+.guestbook-form button {
+  display: block;
+  width: 150px;
+  height: 32px;
+  margin: 10px auto 20px;
+  text-align: center;
+  align-content: center;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: var(--title-weight);
+}
+
+.guest-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.entry header{
+    font-size: 20px;
+}
+
+.entry-profile {
+  line-height: 32px;
+  font-weight: var(--title-weight);
+}
+
+.entry-rating {
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+}
+
+.entry-comment {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@media screen and (min-width: 1024px) {
+  .guestbook-form {
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 20px;
+  }
+
+  .form-group input[type="text"],
+  .form-group textarea {
+    max-width: 800px;
+  }
+
+  .form-group input[type="text"],
+  .form-group textarea::placeholder{
+    font-size: 20px;
+  }
+
+  .entry header{
+    font-size: 24px;
+  }
+
+  .guest-entries {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  .entry-comment {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .guestbook-form {
+    max-width: 1000px;
+    font-size: 24px;
+  }
+
+  .form-group input[type="text"],
+  .form-group textarea {
+    max-width: 1000px;
+  }
+
+  .guest-entries {
+    flex-direction: row;
+    max-width: 1000px;
+  }
+
+  .entry {
+    max-width: 384px;
+    margin: 0 auto;
+  }
+
+  .entry header{
+    font-size: 28px;
+  }
+
+  .entry-comment {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .guestbook-form {
+    max-width: 1200px;
+  }
+
+  .form-group input[type="text"],
+  .form-group textarea {
+    max-width: 1200px;
+  }
+
+  .guest-entries {
+    max-width: 1200px;
+  }
+
+  .entry {
+    max-width: 400px;
+  }
+}
