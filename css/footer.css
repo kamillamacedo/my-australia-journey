@@ -8,6 +8,13 @@
   align-items: center;
   padding: 47px 24px;
   color: var(--text-secondary-color);
+  box-sizing: border-box;
+}
+
+.page-footer p{
+    font-size: 16px;
+    font-weight: var(--paragraph-weight);
+    line-height: 28px;
 }
 
 .footer-socialmedia{
@@ -28,8 +35,13 @@
 
 @media screen and (min-width: 768px) {
    .page-footer {
-    height: 290px;
-    padding: 53px 60px;
+    height: 300px;
+    padding: 24px 60px;
+  }
+
+  .page-footer p{
+    font-size: 18px;
+    line-height: 32px;
   }
 
 }
@@ -41,5 +53,13 @@
     justify-content: space-between;
     padding: 52px 120px;
   }
+
+  .footer-socialmedia{
+  margin-top: 0;
+}
+
+.footer-socialmedia p{
+  font-size: 16px;
+}
 }
 
