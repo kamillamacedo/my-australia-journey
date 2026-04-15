@@ -1,9 +1,8 @@
 .hero-img {
   height: 400px;
   width: 100%;
-  background: url(../img/hero-mobile.jpg) no-repeat;
+  background: url(../img/hero.jpg) no-repeat;
   background-size: cover;
-  background-position: 60% center;
 }
 
 .hero h2 {
@@ -17,8 +16,6 @@
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
-    background: url(../img/hero-tablet.jpg) no-repeat;
-    background-size: cover;
   }
 
   .hero h2 {
@@ -29,9 +26,7 @@
 
 @media screen and (min-width: 1024px) {
   .hero-img {
-    height: 620px;
-    background: url(../img/hero-desktop.jpg) no-repeat;
-    background-size: cover;
+    background-position: 50% 57%;
   }
 
   .hero h2 {
@@ -40,7 +35,6 @@
 }
 
 @media screen and (min-width: 1920px) {
-
   .hero h2 {
     padding: 88px 160px;
   }
