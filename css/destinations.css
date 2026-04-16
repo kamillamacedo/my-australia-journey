@@ -1,3 +1,4 @@
+/* Destination cards section: layout and common card styling */
 .destinations-cards{
     display: flex;
     flex-direction: column;

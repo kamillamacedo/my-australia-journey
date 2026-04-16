@@ -1,3 +1,4 @@
+/* Guestbook section: form layout and user entry styling */
 .guestbook-form {
   display: flex;
   flex-direction: column;
