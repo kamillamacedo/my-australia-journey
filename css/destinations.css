@@ -23,26 +23,28 @@
     margin-bottom: 45px;
 }
 
-.card.card.cottesloe{
+/* Destination card background image variants using BEM modifiers */
+.card--cottesloe{
     background: url(../img/cottesloe-card.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.card.card.hillarys{
+.card--hillarys{
     background: url(../img/hillarys-card.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.card.card.lancelin{
+.card--lancelin{
     background: url(../img/lancelin-card.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-.card.card.denmark{
+
+.card--denmark{
     background: url(../img/denmark-card.jpg);
     background-size: cover;
     background-repeat: no-repeat;
