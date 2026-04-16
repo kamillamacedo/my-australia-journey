@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A website sharing my journey in Australia, including destinations, tips, and a photo gallery." /> 
+    <meta name="og:title" content="My Australia Journey" >
+    <meta name="og:description" content="A website sharing my journey in Australia, including destinations, tips, and a photo gallery." >
+    <meta name="og:image" content="https://kamillamacedo.github.io/my-australia-journey/img/aj-hero.jpg" >
+    <meta name="og:url" content="https://kamillamacedo.github.io/my-australia-journey" >
+    <meta name="og:type" content="website" >
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,7 +20,9 @@
       rel="stylesheet"
     />
     <link rel="icon" href="favicon.png" type="image/x-icon" />
+    
     <title>My Australia Journey</title>
+
   </head>
 
   <body>
@@ -136,7 +145,7 @@
                 <div class="card-text">
                   <h3 class="card-text-h3">Arrival in Perth</h3>
                   <p>
-                    Landed in Perth and started my jopurney, starting a new
+                    Landed in Perth and started my journey, starting a new
                     chapter far from home.
                   </p>
                 </div>
@@ -551,7 +560,7 @@
         <div class="guest-entries">
           <article class="entry">
             <header>
-              <h4 class="entry-profile">Anna Bruke</h4>
+              <h3 class="entry-profile">Anna Bruke</h3>
               <div class="entry-rating">★★★★★</div>
             </header>
             <footer>
@@ -562,23 +571,28 @@
           </article>
           <article class="entry">
             <header>
-              <h4 class="entry-profile">Tom Staford</h4>
+              <h3 class="entry-profile">Tom Staford</h3>
               <div class="entry-rating">★★★★★</div>
             </header>
             <footer>
               <div class="entry-comment">
-                <p>The Denmark pictures are so pretty that I want to go there!</p>
+                <p>
+                  The Denmark pictures are so pretty that I want to go there!
+                </p>
               </div>
             </footer>
           </article>
           <article class="entry">
             <header>
-              <h4 class="entry-profile">Joffrey Targaryen</h4>
+              <h3 class="entry-profile">Joffrey Targaryen</h3>
               <div class="entry-rating">★★</div>
             </header>
             <footer>
               <div class="entry-comment">
-                <p>The trip sounds cool, but the pictures I take on my calculator have better resolution than the ones I see here.</p>
+                <p>
+                  The trip sounds cool, but the pictures I take on my calculator
+                  have better resolution than the ones I see here.
+                </p>
               </div>
             </footer>
           </article>
@@ -586,8 +600,33 @@
       </section>
     </main>
     <section class="hero-bottom">
-        <div class="hero-bottom-img"></div>
-    </section>   
-    <footer></footer>
+      <div class="hero-bottom-img"></div>
+    </section>
+    <footer class="page-footer">
+      <div>
+        <a href="index.html" title="Go back to the main page">
+          <img
+            class="footer-logo"
+            src="./img/bottom-logo.png"
+            alt="Australia Journey logo colored in blue and red"
+          />
+        </a>
+        <p>Desenvolvido por Kamilla Macêdo</p>
+      </div>
+      <div class="footer-socialmedia">
+        <p>Acesse minhas redes:</p>
+        <div class="footer-icons">
+          <a href="#" target="_blank" title="Access Kamilla Macêdo's Whatsapp"
+            ><img src="./img/Whatsapp-icon.png"  alt="Social media icon fot Whatsapp"
+          /></a>
+          <a href="#" target="_blank" title="Access Kamilla Macêdo's Instagram"
+            ><img src="./img/Instragam-icon.png"  alt="Social media icon for Instagram"
+          /></a>
+          <a href="#" target="_blank" title="Access Kamilla Macêdo's Twitter"
+            ><img src="./img/Twitter-icon.png"  alt="Social media icon for Twitter"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

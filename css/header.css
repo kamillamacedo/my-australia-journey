@@ -91,14 +91,6 @@ input[type="checkbox"]:checked ~ nav {
     padding: 38px 120px;
   }
 
-  .compass-logo {
-    display: none;
-  }
-
-  .main-logo {
-    display: block;
-  }
-
   .navigation-menu a:hover{
     color: var(--highlight-primary-color);
   }
