@@ -1,3 +1,4 @@
+/* Main stylesheet: import component styles in order of page structure */
 @import url(global.css);
 @import url(header.css);
 @import url(hero.css);

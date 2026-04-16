@@ -1,3 +1,4 @@
+/* Tips section: clickable cards and responsive layout */
 .tips-cards {
   display: flex;
   flex-direction: column;
