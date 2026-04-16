@@ -6,6 +6,14 @@
   background-size: cover;
 }
 
+.hero h1 {
+  padding: 88px 46px;
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  text-align: center;
+  line-height: 1.5;
+}
+
 .hero h2 {
   padding: 88px 46px;
   font-size: 20px;
@@ -14,9 +22,19 @@
   line-height: 1.5;
 }
 
+/* Hero section modifiers: custom background images per page */
+.hero--about .hero-img {
+  background-image: url(../img/about-hero.jpg);
+  background-position: bottom;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
   }
 
   .hero h2 {
@@ -30,8 +48,18 @@
     background-position: 50% 57%;
   }
 
+  .hero h1 {
+    font-size: 48px;
+  }
+
   .hero h2 {
     padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero--about .hero-img {
+  background-position: 30% 57%;
   }
 }
 
@@ -39,4 +67,7 @@
   .hero h2 {
     padding: 88px 160px;
   }
+  
 }
+
+

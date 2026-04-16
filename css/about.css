@@ -1,0 +1,67 @@
+/* About page section: text and image layout */
+.about-content {
+  padding: 0px 24px 88px 24px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.about-content p {
+  font-size: 16px;
+  font-weight: var(--text-weight);
+  margin-bottom: 24px;
+  color: var(--text-primary-color);
+}
+
+.about-content img {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin: 32px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .about-content {
+    padding: 0px 60px 64px 60px;
+    font-size: 18px;
+  }
+
+  .about-content p {
+    font-size: 18px;
+  }
+
+  .about-content img {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-content {
+    padding: 0px 88px 120px 88px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .about-content p {
+    font-size: 20px;
+  }
+
+  .about-content img {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-content {
+    padding: 0px 88px 160px 88px;
+    max-width: 1200px;
+  }
+
+  .about-content p {
+    font-size: 24px;
+  }
+
+  .about-content img {
+    width: 500px;
+  }
+}
