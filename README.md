@@ -52,7 +52,7 @@ Instead of building a generic travel agency website, I used real memories, photo
 
 ## 🔗 Live Project
 
-👉 https://kamillamacedo.github.io/my-australia-journey
+👉 https://github.com/kamillamacedo/my-australia-journey
 
 ---
 
