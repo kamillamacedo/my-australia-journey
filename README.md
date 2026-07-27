@@ -2,7 +2,7 @@
 
 A personal travel website inspired by a course project, redesigned to tell the story of my real experience living in Australia.
 
-## ✨ About the Project
+## 🚀 About the Project
 
 This project started as a travel agency website from a course, but I transformed it into something more meaningful: a digital space to share my own journey in Australia back in 2009–2010.
 
@@ -15,7 +15,7 @@ Instead of following the original proposal, I adapted the structure to reflect r
 - Transform a guided project into a personal and authentic experience
 - Improve attention to detail in UI and content organization
 
-## 🧠 What I Practiced
+## 🧠 What I Practiced & Improved
 
 - Semantic HTML structure  
 - CSS styling and layout techniques  
@@ -23,7 +23,7 @@ Instead of following the original proposal, I adapted the structure to reflect r
 - Content organization and storytelling  
 - Navigation and page structure  
 
-## 🌍 Features
+## ⚙️ Features
 
 - **Hero section** introducing the journey  
 - **Destinations section** with highlighted locations  
@@ -38,7 +38,7 @@ Instead of following the original proposal, I adapted the structure to reflect r
 - HTML  
 - CSS  
 
-## 💡 What Makes This Project Different
+## 📌 Why This Project Matters to Me
 
 Although based on a course, this project goes beyond the original idea by turning it into something personal.
 
