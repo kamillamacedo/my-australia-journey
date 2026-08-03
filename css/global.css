@@ -89,6 +89,10 @@ section.hero-bottom {
   font-size: 20px;
   font-weight: var(--title-weight);
   margin: 0 auto;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 @media screen and (min-width: 768px) {
