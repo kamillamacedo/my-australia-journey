@@ -23,7 +23,7 @@
     
     <title>My Australia Journey</title>
 
-    <script src="./js/app.js" type="module"></script>
+    <script src="./scripts/app.js" type="module"></script>
 
   </head>
 
@@ -630,5 +630,17 @@
         </div>
       </div>
     </footer>
+    <dialog id="destinations-modal" class="modal">
+      <div class ="modal-content">
+        <button type="button" id="modal-close"  class="modal__close" aria-label="Close modal">&times;</button>
+        <img id="modal-main-img"   class="modal__main-img" src="" alt="" />
+        <div id="modal-gallery" class="modal__gallery">
+        </div>
+        <h2 id="modal-title"  class="modal__title"></h2>
+        <p id="modal-subtitle"  class="modal__subtitle"><time datetime=""></time></p>
+        <p id="modal-description"   class="modal__description"></p>
+        <div id="modal-tags" class="modal__tags"></div>
+      </div>
+    </dialog>
   </body>
 </html>

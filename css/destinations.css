@@ -15,6 +15,9 @@
     border-radius: 16px;
 
     text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card h3{
@@ -25,30 +28,22 @@
 
 /* Destination card background image variants using BEM modifiers */
 .card--cottesloe{
-    background: url(../img/cottesloe-card.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/destinations/maincottesloe.jpg);
 }
 
 .card--hillarys{
-    background: url(../img/hillarys-card.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/destinations/mainhillarys.jpg);
+    background-position: center 70%;
 }
 
 .card--lancelin{
-    background: url(../img/lancelin-card.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/destinations/mainlancelin.jpg);
+    background-position: center 80%;
 }
 
 .card--denmark{
-    background: url(../img/denmark-card.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/destinations/maindenmark.jpg);
+
 }
 
 
