@@ -3,12 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A website sharing my journey in Australia, including destinations, tips, and a photo gallery." /> 
-    <meta name="og:title" content="My Australia Journey" >
-    <meta name="og:description" content="A website sharing my journey in Australia, including destinations, tips, and a photo gallery." >
-    <meta name="og:image" content="https://kamillamacedo.github.io/my-australia-journey/img/aj-hero.jpg" >
-    <meta name="og:url" content="https://kamillamacedo.github.io/my-australia-journey" >
-    <meta name="og:type" content="website" >
+    <meta
+      name="description"
+      content="A website sharing my journey in Australia, including destinations, tips, and a photo gallery."
+    />
+    <meta name="og:title" content="My Australia Journey" />
+    <meta
+      name="og:description"
+      content="A website sharing my journey in Australia, including destinations, tips, and a photo gallery."
+    />
+    <meta
+      name="og:image"
+      content="https://kamillamacedo.github.io/my-australia-journey/img/aj-hero.jpg"
+    />
+    <meta
+      name="og:url"
+      content="https://kamillamacedo.github.io/my-australia-journey"
+    />
+    <meta name="og:type" content="website" />
 
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,11 +32,10 @@
       rel="stylesheet"
     />
     <link rel="icon" href="favicon.png" type="image/x-icon" />
-    
+
     <title>My Australia Journey</title>
 
     <script src="./scripts/app.js" type="module"></script>
-
   </head>
 
   <body>
@@ -95,12 +106,17 @@
           <hr />
         </div>
         <div class="destinations-cards">
-          <article class="card card--cottesloe" >
+          <article class="card card--cottesloe">
             <header>
               <h3>Cottesloe</h3>
             </header>
             <footer>
-              <button class="view-button" data-destination="cottesloe">View Details</button>
+              <button
+                class="view-button card__button"
+                data-destination="cottesloe"
+              >
+                View Details
+              </button>
             </footer>
           </article>
           <article class="card card--hillarys">
@@ -108,7 +124,12 @@
               <h3>Hillarys</h3>
             </header>
             <footer>
-              <button class="view-button" data-destination="hillarys">View Details</button>
+              <button
+                class="view-button card__button"
+                data-destination="hillarys"
+              >
+                View Details
+              </button>
             </footer>
           </article>
           <article class="card card--lancelin">
@@ -116,7 +137,12 @@
               <h3>Lancelin</h3>
             </header>
             <footer>
-              <button class="view-button" data-destination="lancelin">View Details</button>
+              <button
+                class="view-button card__button"
+                data-destination="lancelin"
+              >
+                View Details
+              </button>
             </footer>
           </article>
           <article class="card card--denmark">
@@ -124,7 +150,12 @@
               <h3>Denmark</h3>
             </header>
             <footer>
-              <button class="view-button" data-destination="denmark">View Details</button>
+              <button
+                class="view-button card__button"
+                data-destination="denmark"
+              >
+                View Details
+              </button>
             </footer>
           </article>
         </div>
@@ -619,28 +650,39 @@
         <p>Acesse minhas redes:</p>
         <div class="footer-icons">
           <a href="#" target="_blank" title="Access Kamilla Macêdo's Whatsapp"
-            ><img src="./img/Whatsapp-icon.png"  alt="Social media icon fot Whatsapp"
+            ><img
+              src="./img/Whatsapp-icon.png"
+              alt="Social media icon fot Whatsapp"
           /></a>
           <a href="#" target="_blank" title="Access Kamilla Macêdo's Instagram"
-            ><img src="./img/Instragam-icon.png"  alt="Social media icon for Instagram"
+            ><img
+              src="./img/Instragam-icon.png"
+              alt="Social media icon for Instagram"
           /></a>
           <a href="#" target="_blank" title="Access Kamilla Macêdo's Twitter"
-            ><img src="./img/Twitter-icon.png"  alt="Social media icon for Twitter"
+            ><img
+              src="./img/Twitter-icon.png"
+              alt="Social media icon for Twitter"
           /></a>
         </div>
       </div>
     </footer>
     <dialog id="destinations-modal" class="modal">
-      <div class ="modal-content">
-        <button type="button" id="modal-close"  class="modal__close" aria-label="Close modal">&times;</button>
-        <img id="modal-main-img"   class="modal__main-img" src="" alt="" />
-        <div id="modal-gallery" class="modal__gallery">
-        </div>
-        <h2 id="modal-title"  class="modal__title"></h2>
-        <p id="modal-subtitle"  class="modal__subtitle"><time datetime=""></time></p>
-        <p id="modal-description"   class="modal__description"></p>
-        <div id="modal-tags" class="modal__tags"></div>
-      </div>
-    </dialog>
+  <button type="button" id="modal-close" class="modal__close" aria-label="Close modal">&times;</button>
+  
+  <div class="modal-content">
+    <div class="modal__img-container">
+      <img id="modal-main-img" class="modal__main-img" src="" alt="" />
+    </div>
+    <div id="modal-gallery" class="modal__gallery">
+    </div>
+    <div class="modal-content__text">
+      <h2 id="modal-title" class="modal__title"></h2>
+      <p id="modal-subtitle" class="modal__subtitle"></p>
+      <p id="modal-description" class="modal__description"></p>
+      <div id="modal-tags" class="modal__tags"></div>
+    </div>
+  </div>
+</dialog>
   </body>
 </html>

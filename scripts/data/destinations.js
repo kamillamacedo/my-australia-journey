@@ -12,7 +12,7 @@ export const destinations = [
             "./img/destinations/cottesloeGallery3.jpg",
             "./img/destinations/cottesloeGallery4.jpg",
         ],
-        tags: ["Indiana Tea House", "Sunset view", "Swimming", "Breach"]
+        tags: ["Indiana Tea House", "Sunset view", "Swimming", "Beach"]
     },
     {
         id: "hillarys",
@@ -35,7 +35,7 @@ export const destinations = [
         date: "June 2010",
         location: "Lancelin, Western Australia",
         description: "Lancelin Sand Dunes are a natural wonder located in Lancelin, Western Australia. The dunes are popular for sandboarding and off-road driving. Visitors can climb the dunes to enjoy panoramic views of the surrounding area. The dunes are also a great spot for photography and experiencing the unique landscape of Western Australia.",
-        mainImage: "./img/destinations/lancelin.jpg",
+        mainImage: "./img/destinations/mainlancelin.jpg",
         gallery: [
             "./img/destinations/lancelinGallery1.jpg",
             "./img/destinations/lancelinGallery2.jpg",
@@ -50,7 +50,7 @@ export const destinations = [
         date: "November 2010",
         location: "Denmark, Western Australia",
         description: "Denmark is a charming town located in the Great Southern region of Western Australia. It is known for its beautiful beaches, lush forests, and vibrant arts scene. Visitors can explore the local wineries, enjoy outdoor activities such as hiking and fishing, and experience the town's unique culture and history. Denmark is a perfect destination for those looking to relax and connect with nature. There you can also visit the famous Greens Pool and Elephant Rocks, which are popular tourist attractions in the area. And you get to walk on the Valley of the Giants Tree Top Walk, a spectacular canopy walkway suspended 40 meters above the ground, right among the giants of the forest: the ancient and massive Red Tingle trees.",
-        mainImage: "./img/destinations/denmark.jpg",
+        mainImage: "./img/destinations/maindenmark.jpg",
         gallery: [
             "./img/destinations/denmarkGallery1.jpg",
             "./img/destinations/denmarkGallery2.jpg",
