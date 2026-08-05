@@ -90,8 +90,8 @@
 
   position: absolute;
 
-  margin-top: -19px;
-  margin-left: 85%;
+  top: 4px;
+  right: 4px;
 }
 
 .modal__close:hover {
@@ -190,10 +190,6 @@
     flex-wrap: wrap;
   }
 
-  .modal__close {
-    margin-left: 93.5%;
-  }
-
   .modal__img-container {
     height: 400px;
   }
@@ -229,11 +225,6 @@
     grid-template-rows: auto max-content;
     gap: 20px;
     height: 100%;
-  }
-
-  .modal__close {
-    margin-top: -18px;
-    margin-left: 95.2%;
   }
 
   .modal__img-container {
