@@ -3,6 +3,7 @@
   --background-primary-color: #ffffff;
   --background-secondary-color: #f5f5f5;
   --background-tertiary-color: #000000;
+  --background-quaternary-color: #f0ebeb;
 
   --primary-color: #8f0101;
   --secondary-color: #b81515;
@@ -89,6 +90,10 @@ section.hero-bottom {
   font-size: 20px;
   font-weight: var(--title-weight);
   margin: 0 auto;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 @media screen and (min-width: 768px) {

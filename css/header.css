@@ -1,5 +1,5 @@
 /* Header styles: logo, navigation and mobile menu */
-.page-header{
+.page-header {
   width: 100vw;
   height: 120px;
   background-color: var(--background-tertiary-color);
@@ -54,11 +54,18 @@ input[type="checkbox"]:checked ~ nav {
   font-size: 24px;
 }
 
+.list-links li a.active,
+.list-links li a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+}
+
 @media screen and (min-width: 768px) {
-   .page-header {
+  .page-header {
     padding: 38px 60px;
   }
- 
+
   .compass-logo {
     display: none;
   }
@@ -92,7 +99,7 @@ input[type="checkbox"]:checked ~ nav {
     padding: 38px 120px;
   }
 
-  .navigation-menu a:hover{
+  .navigation-menu a:hover {
     color: var(--highlight-primary-color);
   }
 }
