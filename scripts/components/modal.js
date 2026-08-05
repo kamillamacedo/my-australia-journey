@@ -32,7 +32,6 @@ function createModalContent(destination) {
     thumbContent.appendChild(galleryThumb);
     modalGallery.appendChild(thumbContent);
   });
-
   const wrapper = document.createElement("div");
   wrapper.classList.add("modal__gallery-wrapper");
 
@@ -65,6 +64,19 @@ function createModalContent(destination) {
   });
 }
 
+function setupGalleryArrows() {
+  const arrows = document.querySelectorAll(".modal__gallery-arrow");
+  if (window.innerWidth < 1024) {
+    arrows.forEach((arrow) => {
+      arrow.style.display = "none";
+    });
+  } else {
+    arrows.forEach((arrow) => {
+      arrow.style.display = "inline-block";
+    });
+  }
+}
+
 function clearGalleryTags() {
   if (modalGallery.parentElement.classList.contains("modal__gallery-wrapper")) {
     const wrapper = modalGallery.parentElement;
@@ -80,6 +92,7 @@ function openModal(destinationId) {
   createModalContent(destination);
   scrollPosition = window.scrollY;
   modal.showModal();
+  setupGalleryArrows();
 }
 
 function closeModal() {
@@ -91,5 +104,9 @@ function closeModal() {
 }
 
 modalClose.addEventListener("click", closeModal);
+
+window.addEventListener("resize", (e) => {
+  setupGalleryArrows();
+});
 
 export { openModal };
