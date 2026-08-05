@@ -8,6 +8,7 @@ const modalTitle = document.querySelector(".modal__title");
 const modalSubtitle = document.querySelector(".modal__subtitle");
 const modalDescription = document.querySelector(".modal__description");
 const modalTags = document.querySelector(".modal__tags");
+let scrollPosition = null;
 
 function createModalContent(destination) {
   modalMainImage.src = destination.mainImage;
@@ -65,6 +66,11 @@ function createModalContent(destination) {
 }
 
 function clearGalleryTags() {
+  if (modalGallery.parentElement.classList.contains("modal__gallery-wrapper")) {
+    const wrapper = modalGallery.parentElement;
+    wrapper.parentElement.insertBefore(modalGallery, wrapper);
+    wrapper.remove();
+  }
   modalTags.innerHTML = "";
   modalGallery.innerHTML = "";
 }
@@ -72,11 +78,16 @@ function clearGalleryTags() {
 function openModal(destinationId) {
   const destination = destinations.find((dest) => dest.id === destinationId);
   createModalContent(destination);
+  scrollPosition = window.scrollY;
   modal.showModal();
 }
 
 function closeModal() {
   modal.close();
+  window.scrollTo({
+    top: scrollPosition,
+    behavior: "instant",
+  });
 }
 
 modalClose.addEventListener("click", closeModal);
