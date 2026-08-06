@@ -1,8 +1,10 @@
-import { openModal } from "./components/modal.js";
-import { openPopUp } from "./components/timeline.js";
+// Imports -------------------------------
+import { openModal } from "./components/destinations.js";
+import { toggleBubble } from "./components/timeline.js";
 
-const destinationCards = document.querySelector(".destinations-cards");const timelineWrapper = document.querySelector(".timeline-wrapper");
+// Destinations --------------------------
 
+const destinationCards = document.querySelector(".destinations-cards");
 
 destinationCards.addEventListener("click", (event) => {
   const card = event.target.closest(".card__button");
@@ -10,9 +12,13 @@ destinationCards.addEventListener("click", (event) => {
   openModal(card.dataset.destination);
 });
 
-timelineWrapper.addEventListener("mouseover", (e)=>{
-    const dot = e.target.closest(".timeline-dot");
-    if (!dot) return;
-     const event = dot.dataset.timelineId;
-    openPopUp(event);
-})
+// Timeline ------------------------------
+
+const timelineWrapper = document.querySelector(".timeline-wrapper");
+
+timelineWrapper.addEventListener("click", (event) => {
+  const dot = event.target.closest(".timeline-dot");
+  if (!dot) return;
+  const id = dot.dataset.timelineId;
+  toggleBubble(id, dot);
+});

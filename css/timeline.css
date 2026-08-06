@@ -1,4 +1,9 @@
 /* Timeline section: vertical timeline layout and event cards */
+
+[hidden] {
+  display: none !important;
+}
+
 .timeline-wrapper {
   position: relative;
   max-width: 340px;
@@ -28,7 +33,7 @@
   margin: 10px 0;
 }
 
-.timeline-date {
+.timeline-date , .timeline-bubble-date {
   font-size: 13px;
   display: block;
   color: grey;
@@ -37,7 +42,7 @@
 
 .card-row {
   display: flex;
-  gap: 5px;
+  gap: 0px;
 }
 
 .card-text {
@@ -46,7 +51,7 @@
   gap: 15px;
 }
 
-.content img {
+.content img , .timeline-bubble-img {
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -71,6 +76,10 @@
   background: var(--timeline-color);
 }
 
+.denmark-bullets{
+  margin-left: 15px;
+}
+
 .timeline-dot {
   width: 20px;
   height: 20px;
@@ -84,6 +93,65 @@
   transform: translateY(-50%);
 
   z-index: 1;
+}
+
+.timeline-bubble{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 10;
+  
+  background-color: var(--background-quinary-color);
+  border-radius: 15px;
+
+  width:  calc(100vw - 80px);
+  left: 35px;
+  top: 12px;
+  gap:5px;
+
+}
+
+.timeline-bubble::before{
+  content: "";
+  position: absolute;
+  width: 0; height: 0;
+  border: 18px solid transparent;;
+  left: -31px;
+  top: 66px; 
+  transform: translateY(-50%);
+  border-right-color: var(--background-quinary-color);
+
+
+}
+
+
+.timeline-bubble img {
+  position: absolute;
+  border: 10px solid var(--background-quinary-color);
+  top: 0px;
+  left: 170px;
+}
+
+.timeline-bubble p {
+  padding: 20px;
+  margin:10px;
+  border-radius: 10px;
+  background-color: var(--background-primary-color);
+  border: 1px solid var(--highlight-secondary-color);
+  line-height: 1.5;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.timeline-title-container{
+  width: 200px;
+  padding: 20px;
+  
+}
+
+.timeline-bubble-title{
+  color: rgb(13, 29, 63);
+  line-height: var(--timeline-align);
 }
 
 @media screen and (min-width: 768px) {
