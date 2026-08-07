@@ -1,6 +1,6 @@
 // Imports -------------------------------
 import { openModal } from "./components/destinations.js";
-import { toggleBubble } from "./components/timeline.js";
+import { toggleBubble, closeBubble } from "./components/timeline.js";
 
 // Destinations --------------------------
 
@@ -14,11 +14,15 @@ destinationCards.addEventListener("click", (event) => {
 
 // Timeline ------------------------------
 
-const timelineWrapper = document.querySelector(".timeline-wrapper");
-
-timelineWrapper.addEventListener("click", (event) => {
+document.addEventListener("click", (event) => {
   const dot = event.target.closest(".timeline-dot");
-  if (!dot) return;
-  const id = dot.dataset.timelineId;
-  toggleBubble(id, dot);
+  if (dot) {
+    const id = dot.dataset.timelineId;
+    toggleBubble(id, dot);
+  } else {
+    const clickedInsideBubble = event.target.closest(".timeline-bubble")
+    if (!clickedInsideBubble) {
+      closeBubble();
+    }
+  }
 });

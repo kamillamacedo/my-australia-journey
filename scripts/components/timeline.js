@@ -9,27 +9,31 @@ const bubbleImg = document.querySelector(".timeline-bubble-img");
 let activeDotId = null;
 
 export function toggleBubble(timelineId, timelineDot) {
-    console.log(activeDotId,timelineId)
-  if (activeDotId === null || activeDotId !== timelineId ) {
+  console.log(activeDotId, timelineId);
+  if (activeDotId === null || activeDotId !== timelineId) {
     const obj = comments.find((comm) => comm.id === timelineId);
     bubbleTitle.textContent = obj.title;
-    bubbleDate.textContent= obj.date;
+    bubbleDate.textContent = obj.date;
     bubbleImg.src = obj.img;
     bubbleText.textContent = obj.comment;
     timelineDot.parentElement.appendChild(bubble);
     bubble.removeAttribute("hidden");
     activeDotId = timelineId;
   } else {
-    bubble.setAttribute("hidden", "true");
-    activeDotId = null;
-    cleartext();
+    closeBubble();
     return;
   }
 }
 
 function cleartext() {
-    bubbleTitle.textContent ="";
-    bubbleDate.textContent ="";
-    bubbleImg.src ="";
-    bubbleText.textContent ="";
+  bubbleTitle.textContent = "";
+  bubbleDate.textContent = "";
+  bubbleImg.src = "";
+  bubbleText.textContent = "";
+}
+
+export function closeBubble() {
+  bubble.setAttribute("hidden", "true");
+  activeDotId = null;
+  cleartext();
 }

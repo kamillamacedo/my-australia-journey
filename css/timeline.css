@@ -113,6 +113,7 @@
 
 .timeline-bubble::before{
   content: "";
+  pointer-events: none;
   position: absolute;
   width: 0; height: 0;
   border: 18px solid transparent;;
