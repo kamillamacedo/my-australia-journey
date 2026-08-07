@@ -7,11 +7,13 @@
   gap: 24px;
 }
 
-.tips-cards a {
+.tips-button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border: none;
+  cursor: pointer;
 
   width: 312px;
   height: 220px;
