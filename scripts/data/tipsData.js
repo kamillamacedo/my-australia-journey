@@ -1,6 +1,7 @@
 export const tipsObjectList = [
   {
     id: "cost",
+    title:"Cost of living",
     tip: `Australia can be expensive, so having a realistic budget before you arrive is one of the best things you can do. Accommodation will usually be one of your biggest expenses, followed by food, transportation and activities. Eating out regularly can add up quickly, so supermarkets and simple meals are useful for keeping your budget under control.
 
     If you are staying for a longer period, think about your accommodation as part of your daily budget rather than looking only at the cheapest room. A cheaper place far from the areas you use most may mean spending more time and money on transportation.
@@ -11,6 +12,7 @@ export const tipsObjectList = [
   },
   {
     id: "transportation",
+    title:"Transportation",
     tip: `Getting around Perth is easier than it may seem. The Transperth network connects the metropolitan area through trains, buses and ferries, and you can use contactless payments or a SmartRider depending on your needs. The system also has a Journey Planner that is useful for checking routes and schedules before leaving.
 
     Coming from Brazil, I had never seen anything like it — the public transport system in Perth follows schedules to the letter. Everything is incredibly well-organized and punctual, which means you can actually trust the timetables. If the app says a bus or train will arrive at a specific minute, it will be there.
@@ -25,6 +27,7 @@ export const tipsObjectList = [
   },
   {
     id: "language",
+    title:"Language",
     tip: `English is the main language you will hear everywhere in Australia, but Australian English has its own expressions, pronunciation and, most importantly, a lot of slang. At first, some conversations can sound surprisingly different from the English you learn in school.
 
     The good news is that you will quickly start recognising the most common expressions. Australians also tend to shorten words, which makes their everyday language feel very informal and relaxed.
@@ -60,6 +63,7 @@ export const tipsObjectList = [
   },
   {
     id: "climate",
+    title:"Climate",
     tip: `Australia's seasons follow a similar calendar to Brazil, including Brasília, and are opposite to those in the Northern Hemisphere, with summer from December to February and winter from June to August. Perth has a Mediterranean-style climate, with hot, dry summers and mild, wetter winters. The average maximum temperature in Perth is around 31°C in January and February, while winter minimums can drop to around 8°C..
 
     I spent a little more than a year in Australia, which allowed me to experience all four seasons. Coming from Brasília, Brazil, I was surprised by how different the extremes felt. Winter seemed much colder than I expected, while summer felt considerably hotter. What impressed me the most was the intensity of the Australian summer. Some days were not simply "hot"; the sun felt incredibly strong, and spending long periods outside required much more attention than I was used to.
@@ -76,6 +80,7 @@ export const tipsObjectList = [
   },
   {
     id: "accomodations",
+    title:"Accomodations",
     tip: `Choosing where to stay can make a big difference in Australia, especially if you are staying for more than a few days. In Perth, it is worth looking beyond the city centre and choosing a suburb that fits the kind of experience you want.
 
     While staying in the City Centre (CBD) is highly convenient for first-time visitors, exploring suburbs like Fremantle, Scarborough, or Northbridge will give you a completely different atmosphere with easy access to restaurants, beaches, and nightlife. In fact, Northbridge and the surrounding areas are packed with legendary spots; clubs such as Metro City, Connections, and The Court, along with pubs like Mustang Bar, the Brass Monkey Hotel and Leederville Hotel, were just a few of the places I used to go to back then.
@@ -90,6 +95,7 @@ export const tipsObjectList = [
   },
   {
     id: "pack",
+    title:"What to pack",
     tip: `Australia is a long way from home, and baggage allowances can make it difficult to bring everything you might want. For that reason, I would recommend thinking carefully about what is truly essential before filling your suitcase. Clothes can always be bought there, so focus on versatile pieces and items that will genuinely improve your experience.
 
     There are a few things, however, that made a real difference to me and that I would consider bringing or buying once you arrive.
@@ -107,6 +113,7 @@ export const tipsObjectList = [
 
   {
     id: "wildlife",
+    title:"Wildlife",
     tip: `Australia's wildlife is legendary, and experiencing it firsthand was unforgettable. I had the chance to get up close with iconic species like koalas and wombats at animal farms, and I even encountered kangaroos in the wild.
 
     Leone, my friend and homestay mother, actually took me to a local cemetery to see them, as it is common local knowledge that mobs of kangaroos gather there to graze on the quiet, open lawns. While this is a fantastic insider tip for anyone visiting Perth, it always comes with a warning: as beautiful as kangaroos are, they are powerful, wild, and potentially dangerous animals, so you must always maintain a safe distance.
