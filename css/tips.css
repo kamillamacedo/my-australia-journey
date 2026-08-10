@@ -7,11 +7,13 @@
   gap: 24px;
 }
 
-.tips-cards a {
+.tips-button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border: none;
+  cursor: pointer;
 
   width: 312px;
   height: 220px;
@@ -24,9 +26,54 @@
   color: var(--text-primary-color);
 }
 
+.tips-button:hover , .tips-button.active {
+  border: solid 2px var(--highlight-secondary-color);
+}
+
 .tips-cards a h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
+}
+
+.tips-content-panel{
+ display: flex;
+ flex-direction: column;
+ padding: 40px 40px 30px;
+ text-align: center;
+ gap: 30px;
+ background-color: var(--background-secondary-color);
+ margin-top: 40px;
+ border-radius: 15px;
+}
+
+.tips-panel-title{
+  color: var( --highlight-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 1.5em;
+}
+
+.tips-panel-text{
+  line-height: 1.5;
+  text-align: left;
+  white-space: pre-line;
+}
+
+.tips-close-button{
+  background-color: transparent;
+  color: var( --highlight-secondary-color);
+
+  font-size: 20px;
+  font-weight: var(--title-weight);
+
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+  
+  border: none;
+
+  padding: 12px 24px;
+  width: 200px;
+  margin: 32px auto 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -34,12 +81,19 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .tips-content-panel{
+    padding: 60px 60px 50px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  
   .tips-cards a{
     width: 380px;
+  }
+
+  .tips-content-panel{
+    padding: 80px 80px 70px;
   }
 }
 
