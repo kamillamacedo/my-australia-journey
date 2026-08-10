@@ -63,7 +63,7 @@
 }
 
 .card-text-h3 {
-  color: var( --highlight-secondary-color --highlight-secondary-color);
+  color: rgb(13, 29, 63);
   position: relative;
   line-height: var(--timeline-align);
 }
