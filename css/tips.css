@@ -26,9 +26,61 @@
   color: var(--text-primary-color);
 }
 
+.tips-button:hover , .tips-button.active {
+  border: solid 4px var(--secondary-color);
+  background-color: var(--background-quaternary-color);
+}
+
 .tips-cards a h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
+}
+
+.tips-content-panel{
+ display: flex;
+ flex-direction: column;
+ padding: 50px;
+ text-align: center;
+ gap: 30px;
+ background-color: var(--background-quaternary-color);
+ border: solid 4px var(--secondary-color);
+ margin-top: 40px;
+ border-radius: 15px;
+}
+
+.tips-panel-title{
+  color: var( --highlight-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 1.5em;
+
+
+}
+
+.tips-panel-text{
+  line-height: 1.5;
+  text-align: left;
+  white-space: pre-line;
+}
+
+.tips-close-button{
+  background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+
+  border: solid 1px white;
+  border-radius: 10px;
+
+  text-align: center;
+  cursor: pointer;
+
+  padding: 10px;
+  width: 200px;
+  margin: 0 auto;
+
+  
 }
 
 @media screen and (min-width: 768px) {
