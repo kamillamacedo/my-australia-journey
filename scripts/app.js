@@ -1,7 +1,6 @@
 // Imports -------------------------------
 import { openModal } from "./components/destinations.js";
-import { toggleBubble , closeBubble } from "./components/timeline.js";
-import { toggleTipsPanel , closeTipsPanel } from "./components/tips.js";
+import { toggleBubble, closeBubble } from "./components/timeline.js";
 
 // Destinations --------------------------
 
@@ -24,22 +23,6 @@ document.addEventListener("click", (event) => {
     const clickedInsideBubble = event.target.closest(".timeline-bubble")
     if (!clickedInsideBubble) {
       closeBubble();
-    }
-  }
-});
-
-// Tips ----------------------------------
-
-document.addEventListener("click", (event)=>{
-  const card = event.target.closest(".tips-button");
-  if (card) {
-    const category = card.dataset.category;
-    toggleTipsPanel(card, category);
-  } else {
-    const isCloseButton = event.target.closest(".tips-close-button");
-    const clickedInsidePanel = event.target.closest(".tips-content-panel");
-    if (isCloseButton ||!clickedInsidePanel) {
-      closeTipsPanel();
     }
   }
 });

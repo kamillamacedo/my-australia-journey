@@ -9,6 +9,7 @@ const bubbleImg = document.querySelector(".timeline-bubble-img");
 let activeDotId = null;
 
 export function toggleBubble(timelineId, timelineDot) {
+  console.log(activeDotId, timelineId);
   if (activeDotId === null || activeDotId !== timelineId) {
     const obj = comments.find((comm) => comm.id === timelineId);
     bubbleTitle.textContent = obj.title;
@@ -24,7 +25,7 @@ export function toggleBubble(timelineId, timelineDot) {
   }
 }
 
-function clearText() {
+function cleartext() {
   bubbleTitle.textContent = "";
   bubbleDate.textContent = "";
   bubbleImg.src = "";
@@ -34,5 +35,5 @@ function clearText() {
 export function closeBubble() {
   bubble.setAttribute("hidden", "true");
   activeDotId = null;
-  clearText();
+  cleartext();
 }
