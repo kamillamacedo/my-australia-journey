@@ -1,4 +1,4 @@
-import { destinations } from "../data/destinations.js";
+import { destinations } from "../data/destinationsData.js";
 
 const modal = document.querySelector(".modal");
 const modalClose = document.querySelector(".modal__close");

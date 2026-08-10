@@ -169,9 +169,11 @@
         <p class="section-subtitle">
           A look back at my adventure in Australia in 2009
         </p>
+        <p class="timeline-instruction">Tap on the dots to open the travel diary.</p>
 
         <div class="timeline-wrapper">
           <div class="timeline-item left">
+            <div class="timeline-dot" data-timeline-id="perth-arrival"></div>
             <div class="content">
               <time class="timeline-date" datetime="2009-10">October 2009</time>
               <div class="card-row">
@@ -191,6 +193,7 @@
           </div>
 
           <div class="timeline-item right">
+            <div class="timeline-dot" data-timeline-id="swan-river"></div>
             <div class="content">
               <time class="timeline-date" datetime="2009-12"
                 >December 2009</time
@@ -212,6 +215,7 @@
           </div>
 
           <div class="timeline-item left">
+            <div class="timeline-dot" data-timeline-id="new-years-eve"></div>
             <div class="content">
               <time class="timeline-date" datetime="2009-12"
                 >December 2009</time
@@ -235,6 +239,7 @@
           </div>
 
           <div class="timeline-item right">
+            <div class="timeline-dot" data-timeline-id="australia-day"></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-01">January 2010</time>
               <div class="card-row">
@@ -254,6 +259,7 @@
           </div>
 
           <div class="timeline-item left">
+            <div class="timeline-dot" data-timeline-id="cottesloe-beach"></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-03">March 2010</time>
               <div class="card-row">
@@ -273,6 +279,10 @@
           </div>
 
           <div class="timeline-item right">
+            <div
+              class="timeline-dot"
+              data-timeline-id="lady-gaga-concert"
+            ></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-04">April 2010</time>
               <div class="card-row">
@@ -292,6 +302,7 @@
           </div>
 
           <div class="timeline-item left">
+            <div class="timeline-dot" data-timeline-id="lancelin-camping"></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-05">June 2010</time>
               <div class="card-row">
@@ -311,6 +322,10 @@
           </div>
 
           <div class="timeline-item right">
+            <div
+              class="timeline-dot"
+              data-timeline-id="hillarys-boat-harbour"
+            ></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-06">July 2010</time>
               <div class="card-row">
@@ -331,6 +346,7 @@
           </div>
 
           <div class="timeline-item left">
+            <div class="timeline-dot" data-timeline-id="whale-experience"></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-09"
                 >September 2010</time
@@ -352,6 +368,7 @@
           </div>
 
           <div class="timeline-item right">
+            <div class="timeline-dot" data-timeline-id="sandalford-wines"></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-10">October 2010</time>
               <div class="card-row">
@@ -371,6 +388,7 @@
           </div>
 
           <div class="timeline-item left">
+            <div class="timeline-dot" data-timeline-id="denmark-trip"></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-11"
                 >November 2010</time
@@ -383,7 +401,7 @@
                     in a cabin surrounded by nature. Also visited places such
                     as:
                   </p>
-                  <ul>
+                  <ul class = "denmark-bullets">
                     <li>Valley of the Giants Tree Top Walk</li>
                     <li>Elephant Rocks Beach</li>
                   </ul>
@@ -397,6 +415,7 @@
           </div>
 
           <div class="timeline-item right">
+            <div class="timeline-dot" data-timeline-id="farewell-party"></div>
             <div class="content">
               <time class="timeline-date" datetime="2010-12"
                 >December 2010</time
@@ -416,6 +435,15 @@
               </div>
             </div>
           </div>
+        </div>
+        
+        <div class="timeline-bubble" hidden>
+          <div class="timeline-title-container">
+            <time class="timeline-bubble-date"></time>
+            <img class="timeline-bubble-img" src="">
+            <h3 class="timeline-bubble-title"></h3>
+          </div>
+          <p class="timeline-text"></p>
         </div>
       </section>
 
@@ -668,21 +696,27 @@
       </div>
     </footer>
     <dialog id="destinations-modal" class="modal">
-  <button type="button" id="modal-close" class="modal__close" aria-label="Close modal">&times;</button>
-  
-  <div class="modal-content">
-    <div class="modal__img-container">
-      <img id="modal-main-img" class="modal__main-img" src="" alt="" />
-    </div>
-    <div id="modal-gallery" class="modal__gallery">
-    </div>
-    <div class="modal-content__text">
-      <h2 id="modal-title" class="modal__title"></h2>
-      <p id="modal-subtitle" class="modal__subtitle"></p>
-      <p id="modal-description" class="modal__description"></p>
-      <div id="modal-tags" class="modal__tags"></div>
-    </div>
-  </div>
-</dialog>
+      <button
+        type="button"
+        id="modal-close"
+        class="modal__close"
+        aria-label="Close modal"
+      >
+        &times;
+      </button>
+
+      <div class="modal-content">
+        <div class="modal__img-container">
+          <img id="modal-main-img" class="modal__main-img" src="" alt="" />
+        </div>
+        <div id="modal-gallery" class="modal__gallery"></div>
+        <div class="modal-content__text">
+          <h2 id="modal-title" class="modal__title"></h2>
+          <p id="modal-subtitle" class="modal__subtitle"></p>
+          <p id="modal-description" class="modal__description"></p>
+          <div id="modal-tags" class="modal__tags"></div>
+        </div>
+      </div>
+    </dialog>
   </body>
 </html>
