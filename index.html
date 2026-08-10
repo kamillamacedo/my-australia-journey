@@ -39,55 +39,7 @@
   </head>
 
   <body>
-    <header class="page-header">
-      <a href="index.html" title="Go back to the main page">
-        <img
-          class="compass-logo"
-          src="./img/aj-compass-color.png"
-          alt="Australia Journey logo's compass colored in blue and red"
-        />
-        <img
-          class="main-logo"
-          src="./img/aj-logo-color.png"
-          alt="Australia Journey logo colored in blue and red"
-        />
-      </a>
-      <div class="navigation-menu">
-        <label for="menu">
-          <img class="hamburger-menu" src="./img/menu.png" alt="Menu" />
-        </label>
-        <input type="checkbox" id="menu" hidden />
-        <nav>
-          <ul class="list-links">
-            <li>
-              <a
-                href="destinations.html"
-                target="_blank"
-                title="Access the destinations page"
-                >Destinations</a
-              >
-            </li>
-            <li>
-              <a href="tips.html" target="_blank" title="Access the tips page"
-                >Tips</a
-              >
-            </li>
-            <li>
-              <a
-                href="gallery.html"
-                target="_blank"
-                title="Access the gallery page"
-                >Gallery</a
-              >
-            </li>
-            <li>
-              <a href="about.html" target="_blank" title="Access the about page"
-                >About</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header id="main-header" >
     </header>
     <main>
       <section class="hero">
@@ -169,7 +121,9 @@
         <p class="section-subtitle">
           A look back at my adventure in Australia in 2009
         </p>
-        <p class="timeline-instruction">Tap on the dots to open the travel diary.</p>
+        <p class="timeline-instruction">
+          Tap on the dots to open the travel diary.
+        </p>
 
         <div class="timeline-wrapper">
           <div class="timeline-item left">
@@ -401,7 +355,7 @@
                     in a cabin surrounded by nature. Also visited places such
                     as:
                   </p>
-                  <ul class = "denmark-bullets">
+                  <ul class="denmark-bullets">
                     <li>Valley of the Giants Tree Top Walk</li>
                     <li>Elephant Rocks Beach</li>
                   </ul>
@@ -436,11 +390,11 @@
             </div>
           </div>
         </div>
-        
+
         <div class="timeline-bubble" hidden>
           <div class="timeline-title-container">
             <time class="timeline-bubble-date"></time>
-            <img class="timeline-bubble-img" src="">
+            <img class="timeline-bubble-img" src="" />
             <h3 class="timeline-bubble-title"></h3>
           </div>
           <p class="timeline-text"></p>
@@ -454,7 +408,10 @@
         </div>
         <div class="tips-cards">
           <button class="tips-button" type="button" data-category="cost">
-            <img src="./img/tips/icon-dolar.png" alt="Gray icon of a dollar bill" />
+            <img
+              src="./img/tips/icon-dolar.png"
+              alt="Gray icon of a dollar bill"
+            />
             <h3>Cost of living</h3>
           </button>
 
@@ -468,7 +425,10 @@
           </button>
 
           <button class="tips-button" type="button" data-category="language">
-            <img src="./img/tips/icon-chat.png" alt="Gray icon of chat ballom" />
+            <img
+              src="./img/tips/icon-chat.png"
+              alt="Gray icon of chat ballom"
+            />
             <h3>Language</h3>
           </button>
 
@@ -489,17 +449,19 @@
             <h3>Accommodation</h3>
           </button>
 
-          <button
-            class="tips-button"
-            type="button"
-            data-category="wildlife"
-          >
-            <img src="./img/tips/icon-paw.png" alt="Gray icon of an animal paw print" />
+          <button class="tips-button" type="button" data-category="wildlife">
+            <img
+              src="./img/tips/icon-paw.png"
+              alt="Gray icon of an animal paw print"
+            />
             <h3>Wildlife</h3>
           </button>
 
           <button class="tips-button" type="button" data-category="pack">
-            <img src="./img/tips/icon-suitcase.png" alt="Gray icon of a suitcase" />
+            <img
+              src="./img/tips/icon-suitcase.png"
+              alt="Gray icon of a suitcase"
+            />
             <h3>What to pack</h3>
           </button>
         </div>
@@ -507,7 +469,7 @@
         <div class="tips-content-panel" hidden>
           <h4 class="tips-panel-title"></h4>
           <p class="tips-panel-text"></p>
-          <button class= "tips-close-button">Close</button>
+          <button class="tips-close-button">Close</button>
         </div>
       </section>
 
