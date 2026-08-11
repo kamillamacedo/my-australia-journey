@@ -4,6 +4,7 @@ import { toggleBubble, closeBubble } from "./components/timeline.js";
 import { toggleTipsPanel, closeTipsPanel } from "./components/tips.js";
 import { initHeader } from "./components/header.js";
 import { initFooter } from "./components/footer.js";
+import { initGallery , openLightbox } from "./components/gallery.js";
 
 // Header--------------------------------
 
@@ -65,6 +66,17 @@ document.addEventListener("click", (event) => {
 });
 
 // Gallery ----------------------------------
+
+initGallery();
+
+document.addEventListener("click", (event) => {
+  if (!document.querySelector(".gallery-page")) return;
+  const clickedLink = event.target.closest(".gallery-full-grid a");
+  if (!clickedLink) return;
+  event.preventDefault();
+  const imgElement = clickedLink.querySelector("img");
+  openLightbox(imgElement);
+});
 
 // Footer -----------------------------------
 
