@@ -12,51 +12,44 @@ const headerTemplate = `<div class="page-header">
           />
         </a>
         <div class="navigation-menu">
-          <label for="menu">
+          <button type="button" class="menu-toggle-button" aria-label="Open menu">
             <img class="hamburger-menu" src="./img/menu.png" alt="Menu" />
-          </label>
-          <input type="checkbox" id="menu" hidden />
+          </button>
           <nav>
             <ul class="list-links">
               <li>
-                <a
-                  href="destinations.html"
-                  target="_blank"
-                  title="Access the destinations page"
-                  >Destinations</a
-                >
-              </li>
-              <li>
-                <a href="tips.html" target="_blank" title="Access the tips page"
-                  >Tips</a
-                >
+                <a href="tips.html" title="Access the tips page"
+                  >Tips</a>
               </li>
               <li>
                 <a
                   href="gallery.html"
-                  target="_blank"
                   title="Access the gallery page"
-                  >Gallery</a
-                >
+                  >Gallery</a>
+              </li>
+              <li>
+                <a
+                  href="thanks.html"
+                  title="Access the destinations page"
+                  >Special Thanks</a>
               </li>
               <li>
                 <a
                   href="about.html"
-                  target="_blank"
                   title="Access the about page"
-                  >About</a
-                >
+                  >About</a>
               </li>
             </ul>
           </nav>
         </div>
-      </div>`
-
+      </div>`;
 
 export function initHeader() {
-    const headerElement = document.querySelector("#main-header");
-    headerElement.innerHTML = headerTemplate;
-    const currentPath = window.location.pathname;
-
+  const headerElement = document.querySelector("#main-header");
+  headerElement.innerHTML = headerTemplate;
+  const currentPath = window.location.pathname;
+  const activeLink = headerElement.querySelector(`a[href="${currentPath}"]`);
+  if (activeLink) {
+    activeLink.classList.add("active");
+  }
 }
-
