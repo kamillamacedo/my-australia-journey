@@ -103,10 +103,13 @@ function closeModal() {
   });
 }
 
-modalClose.addEventListener("click", closeModal);
+if (document.querySelector('.destinations-cards')) {
+  modalClose.addEventListener("click", closeModal);
 
-window.addEventListener("resize", (e) => {
+  window.addEventListener("resize", (e) => {
   setupGalleryArrows();
 });
+}
+
 
 export { openModal };

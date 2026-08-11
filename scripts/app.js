@@ -5,7 +5,6 @@ import { toggleTipsPanel, closeTipsPanel } from "./components/tips.js";
 import { initHeader } from "./components/header.js";
 import { initFooter } from "./components/footer.js";
 
-
 // Header--------------------------------
 
 initHeader();
@@ -24,18 +23,19 @@ document.addEventListener("click", (event) => {
 
 // Destinations --------------------------
 
-const destinationCards = document.querySelector(".destinations-cards");
+document.addEventListener("click", (event) => {
+    const card = event.target.closest(".card__button");
+    if (!document.querySelector('.destinations')) return;
+    if (!card) return;
+    openModal(card.dataset.destination);
+  });
 
-destinationCards.addEventListener("click", (event) => {
-  const card = event.target.closest(".card__button");
-  if (!card) return;
-  openModal(card.dataset.destination);
-});
 
 // Timeline ------------------------------
 
 document.addEventListener("click", (event) => {
   const dot = event.target.closest(".timeline-dot");
+  if (!document.querySelector('.timeline')) return;
   if (dot) {
     const id = dot.dataset.timelineId;
     toggleBubble(id, dot);
@@ -51,6 +51,7 @@ document.addEventListener("click", (event) => {
 
 document.addEventListener("click", (event) => {
   const card = event.target.closest(".tips-button");
+  if (!document.querySelector('.tips')) return;
   if (card) {
     const category = card.dataset.category;
     toggleTipsPanel(card, category);
@@ -64,9 +65,6 @@ document.addEventListener("click", (event) => {
 });
 
 // Gallery ----------------------------------
-
-
-
 
 // Footer -----------------------------------
 
