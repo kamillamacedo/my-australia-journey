@@ -1,7 +1,24 @@
 // Imports -------------------------------
 import { openModal } from "./components/destinations.js";
-import { toggleBubble , closeBubble } from "./components/timeline.js";
-import { toggleTipsPanel , closeTipsPanel } from "./components/tips.js";
+import { toggleBubble, closeBubble } from "./components/timeline.js";
+import { toggleTipsPanel, closeTipsPanel } from "./components/tips.js";
+import { initHeader } from "./components/header.js";
+
+// Header--------------------------------
+
+initHeader();
+
+document.addEventListener("click", (event) => {
+  const menuBtn = event.target.closest(".menu-toggle-button");
+  const navMenu = document.querySelector(".navigation-menu");
+  const openedMenu = document.querySelector(".navigation-menu.menu-is-open");
+  if (menuBtn && navMenu) {
+    navMenu.classList.toggle("menu-is-open");
+  }
+  if (openedMenu && !event.target.closest(".navigation-menu")) {
+    openedMenu.classList.remove("menu-is-open");
+  }
+});
 
 // Destinations --------------------------
 
@@ -21,7 +38,7 @@ document.addEventListener("click", (event) => {
     const id = dot.dataset.timelineId;
     toggleBubble(id, dot);
   } else {
-    const clickedInsideBubble = event.target.closest(".timeline-bubble")
+    const clickedInsideBubble = event.target.closest(".timeline-bubble");
     if (!clickedInsideBubble) {
       closeBubble();
     }
@@ -30,7 +47,7 @@ document.addEventListener("click", (event) => {
 
 // Tips ----------------------------------
 
-document.addEventListener("click", (event)=>{
+document.addEventListener("click", (event) => {
   const card = event.target.closest(".tips-button");
   if (card) {
     const category = card.dataset.category;
@@ -38,7 +55,7 @@ document.addEventListener("click", (event)=>{
   } else {
     const isCloseButton = event.target.closest(".tips-close-button");
     const clickedInsidePanel = event.target.closest(".tips-content-panel");
-    if (isCloseButton ||!clickedInsidePanel) {
+    if (isCloseButton || !clickedInsidePanel) {
       closeTipsPanel();
     }
   }
