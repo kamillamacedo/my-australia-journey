@@ -3,6 +3,8 @@ import { openModal } from "./components/destinations.js";
 import { toggleBubble, closeBubble } from "./components/timeline.js";
 import { toggleTipsPanel, closeTipsPanel } from "./components/tips.js";
 import { initHeader } from "./components/header.js";
+import { initFooter } from "./components/footer.js";
+
 
 // Header--------------------------------
 
@@ -60,3 +62,12 @@ document.addEventListener("click", (event) => {
     }
   }
 });
+
+// Gallery ----------------------------------
+
+
+
+
+// Footer -----------------------------------
+
+initFooter();
