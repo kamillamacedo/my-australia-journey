@@ -35,9 +35,14 @@
 /*====================================================================
    2. FULL GALLERY PAGE 
 ====================================================================*/
-.gallery-page{
+
+main{
+  margin:0;
+}
+.gallery-page {
   margin: 0 auto;
 }
+
 
 .gallery-full-grid {
   display: grid;
@@ -53,6 +58,77 @@
   height: 100%;
   object-fit: cover;
   border-radius: 12px;
+}
+
+.lightbox {
+  border: none;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  background-color: transparent;;
+
+  width: 85vw;
+  max-height: 90vh;
+  box-sizing: border-box;
+}
+
+.lightbox::backdrop {
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(8px);
+}
+
+.lightbox__close-btn {
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  font-weight: var(--title-weight);
+
+  border: none;
+  text-align: center;
+  cursor: pointer;
+
+  width: 18px;
+  font-size: 16px;
+  top: 4px;
+  right: 2px;
+}
+
+.lightbox__close-btn:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.lightbox__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  gap: 10px;
+  
+}
+
+.lightbox__img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  flex-shrink: 1;
+  min-width: 0; 
+}
+
+.lightbox__arrow-btn {
+  color: white;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+  height: 23px;
+  width: 23px;
+  font-size: 12px;
+  border-radius: 50%;
+}
+
+.lightbox__arrow-btn:hover{
+  background-color: rgb(141, 140, 140);
 }
 
 @media screen and (min-width: 768px) {
@@ -76,8 +152,8 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-   .gallery-full-grid .grid-w2 {
-    grid-column: span 2; 
+  .gallery-full-grid .grid-w2 {
+    grid-column: span 2;
   }
 }
 
@@ -112,6 +188,11 @@
   .gallery-full-grid .grid-h2 {
     grid-row: span 2;
   }
+
+  .lightbox {
+    max-width: 800px;
+  }
+
 }
 
 @media screen and (min-width: 1440px) {
