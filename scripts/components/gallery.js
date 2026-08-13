@@ -7,6 +7,7 @@ const nextBtn = document.querySelector("#lightbox-next");
 const prevBtn = document.querySelector("#lightbox-prev");
 
 let currentImgIndex = 0;
+let scrollPosition = 0;
 
 export function initGallery() {
   const grid = document.querySelector(".gallery-full-grid");
@@ -27,11 +28,13 @@ export function openLightbox(img) {
     currentImgIndex = galleryData.findIndex(item => item.src === img.getAttribute("src"));
     mainImage.src = img.src;
     mainImage.alt = img.alt;
+    scrollPosition = window.scrollY;
     lightbox.showModal();
 }
 
 function closeLightbox() {
     lightbox.close();
+    window.scrollTo(0, scrollPosition);
 }
 
 function nextImage() {

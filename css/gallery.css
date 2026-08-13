@@ -10,6 +10,9 @@
   gap: 24px;
   z-index: 0;
   margin: 0 auto;
+
+  pointer-events: none;
+  cursor: default;
 }
 
 .gallery-card {
@@ -36,13 +39,12 @@
    2. FULL GALLERY PAGE 
 ====================================================================*/
 
-main{
-  margin:0;
+main {
+  margin: 0;
 }
 .gallery-page {
   margin: 0 auto;
 }
-
 
 .gallery-full-grid {
   display: grid;
@@ -64,10 +66,7 @@ main{
   border: none;
   margin: auto;
   position: relative;
-  display: flex;
-  flex-direction: column;
-
-  background-color: transparent;;
+  background-color: transparent;
 
   width: 85vw;
   max-height: 90vh;
@@ -95,7 +94,7 @@ main{
   right: 2px;
 }
 
-.lightbox__close-btn:hover{
+.lightbox__close-btn:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -103,9 +102,8 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%; 
+  width: 100%;
   gap: 10px;
-  
 }
 
 .lightbox__img {
@@ -113,7 +111,7 @@ main{
   max-height: 500px;
   object-fit: contain;
   flex-shrink: 1;
-  min-width: 0; 
+  min-width: 0;
 }
 
 .lightbox__arrow-btn {
@@ -127,7 +125,7 @@ main{
   border-radius: 50%;
 }
 
-.lightbox__arrow-btn:hover{
+.lightbox__arrow-btn:hover {
   background-color: rgb(141, 140, 140);
 }
 
@@ -155,6 +153,23 @@ main{
   .gallery-full-grid .grid-w2 {
     grid-column: span 2;
   }
+
+
+  .lightbox {
+    max-width: 900px;
+  }
+
+  .lightbox__close-btn {
+    font-size: 23px;
+  }
+
+  .lightbox__arrow-btn {
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+  }
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -189,10 +204,15 @@ main{
     grid-row: span 2;
   }
 
-  .lightbox {
-    max-width: 800px;
+  .lightbox__close-btn {
+    font-size: 26px;
   }
 
+  .lightbox__arrow-btn {
+    height: 33px;
+    width: 33px;
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -215,6 +235,15 @@ main{
   .gallery-grid::before {
     width: 110%;
     height: 75%;
+  }
+
+   .lightbox {
+    max-width: 1000px;
+  }
+
+   .lightbox__img {
+    max-height: 600px;
+    object-fit: scale-down; 
   }
 }
 
