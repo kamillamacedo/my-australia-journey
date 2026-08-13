@@ -101,7 +101,8 @@
 
   .list-links {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    gap:80px;
     width: 467px;
     padding: 0;
   }
