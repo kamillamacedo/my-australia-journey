@@ -18,20 +18,10 @@ const headerTemplate = `<div class="page-header">
           <nav>
             <ul class="list-links">
               <li>
-                <a href="tips.html" title="Access the tips page"
-                  >Tips</a>
-              </li>
-              <li>
                 <a
                   href="gallery.html"
                   title="Access the gallery page"
                   >Gallery</a>
-              </li>
-              <li>
-                <a
-                  href="thanks.html"
-                  title="Access the destinations page"
-                  >Special Thanks</a>
               </li>
               <li>
                 <a
