@@ -1,25 +1,37 @@
 /* Tips section: clickable cards and responsive layout */
 .tips-cards {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; 
   margin: 0 auto;
   gap: 24px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  -webkit-overflow-scrolling: touch; 
+  scrollbar-width: none;
+}
+
+.tips-cards::-webkit-scrollbar {
+  display: none;
 }
 
 .tips-button {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
   justify-content: space-around;
   align-items: center;
   border: none;
   cursor: pointer;
 
-  width: 312px;
-  height: 220px;
-  background-color: var(--background-secondary-color);
-  padding: 24px 16px;
   border-radius: 16px;
+  background-color: var(--background-secondary-color);
+  border: 1px solid #ccc;
+  
+  width: 160px;
+  padding: 24px 16px;
+  gap: 10px;
 
   text-align: center;
   text-decoration: none;
@@ -76,40 +88,19 @@
   margin: 32px auto 0;
 }
 
-@media screen and (min-width: 768px) {
+@media (pointer: fine) {
   .tips-cards {
-    flex-direction: row;
-    flex-wrap: wrap;
+    scrollbar-width: auto;
+     padding-bottom: 16px; 
   }
 
-  .tips-content-panel{
-    padding: 60px 60px 50px;
+  .tips-cards::-webkit-scrollbar {
+    display: block;
+    height: 8px;
   }
-}
-
-@media screen and (min-width: 1024px) {
-  .tips-cards a{
-    width: 380px;
   }
-
-  .tips-content-panel{
-    padding: 80px 80px 70px;
-  }
-}
-
-@media screen and (min-width: 1440px){
-  .tips-cards a{
-    width: 384px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-.tips-cards {
-    width: 1400px;
-  }
-
-  .tips-cards a{
-    width: 450px;
-  }
-
+  .tips-cards::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+    
 }
