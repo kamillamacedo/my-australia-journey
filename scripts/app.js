@@ -5,6 +5,7 @@ import { toggleTipsPanel, closeTipsPanel } from "./components/tips.js";
 import { initHeader } from "./components/header.js";
 import { initFooter } from "./components/footer.js";
 import { initGallery , openLightbox } from "./components/gallery.js";
+import { initGuestbook } from "./components/guestbook.js";
 
 // Header--------------------------------
 
@@ -77,6 +78,10 @@ document.addEventListener("click", (event) => {
   const imgElement = clickedLink.querySelector("img");
   openLightbox(imgElement);
 });
+
+// Guestbook --------------------------------
+
+initGuestbook();
 
 // Footer -----------------------------------
 
