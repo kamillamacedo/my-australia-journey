@@ -19,6 +19,12 @@ const headerTemplate = `<div class="page-header">
             <ul class="list-links">
               <li>
                 <a
+                  href="index.html"
+                  title="Access the home page"
+                  >Home</a>
+              </li>
+              <li>
+                <a
                   href="gallery.html"
                   title="Access the gallery page"
                   >Gallery</a>
