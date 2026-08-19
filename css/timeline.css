@@ -124,7 +124,7 @@
   width: 0;
   height: 0;
   border: 18px solid transparent;
-  left: -28px;
+  left: -29px;
   top: 64px;
   transform: translateY(-50%);
   border-right-color: var(--background-quinary-color);
@@ -166,8 +166,9 @@
   margin-bottom: 24px;
 }
 
-.timeline-dot:active {
-  transform: translateY(-50%) scale(0.9);
+.timeline-dot.active {
+  transform: translateY(-50%) scale(1.1);
+  border: 6px solid var(--secondary-color);
   background-color: var(--highlight-secondary-color) !important;
 }
 
