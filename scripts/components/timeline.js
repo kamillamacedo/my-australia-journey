@@ -10,6 +10,10 @@ let activeDotId = null;
 
 export function toggleBubble(timelineId, timelineDot) {
   if (activeDotId === null || activeDotId !== timelineId) {
+    document.querySelectorAll(".timeline-dot").forEach((dot) => {
+      dot.classList.remove("active");
+    });
+
     const obj = comments.find((comm) => comm.id === timelineId);
     bubbleTitle.textContent = obj.title;
     bubbleDate.textContent = obj.date;
@@ -17,7 +21,9 @@ export function toggleBubble(timelineId, timelineDot) {
     bubbleText.textContent = obj.comment;
     timelineDot.parentElement.appendChild(bubble);
     bubble.removeAttribute("hidden");
+
     activeDotId = timelineId;
+    timelineDot.classList.add("active");
   } else {
     closeBubble();
     return;
@@ -35,4 +41,5 @@ export function closeBubble() {
   bubble.setAttribute("hidden", "true");
   activeDotId = null;
   clearText();
+  document.querySelectorAll(".timeline-dot").forEach(dot => dot.classList.remove("active"));
 }
