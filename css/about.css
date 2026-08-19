@@ -1,12 +1,12 @@
 /* About page section: text and image layout */
 .about-content {
   padding: 0px 24px 88px 24px;
-  text-align: center;
-  line-height: 1.8;
+  text-align: center;git add .
 }
 
 .about-content p {
   font-size: 16px;
+  line-height: 1.8;
   font-weight: var(--text-weight);
   margin-bottom: 24px;
   color: var(--text-primary-color);
