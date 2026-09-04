@@ -30,27 +30,27 @@
 .card--cottesloe {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/destinations/maincottesloe.jpg);
+    url(/img/destinations/maincottesloe.jpg);
 }
 
 .card--hillarys {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/destinations/mainhillarys.jpg);
+    url(/img/destinations/mainhillarys.jpg);
   background-position: center 70%;
 }
 
 .card--lancelin {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/destinations/mainlancelin.jpg);
+    url(/img/destinations/mainlancelin.jpg);
   background-position: center 80%;
 }
 
 .card--denmark {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/destinations/maindenmark.jpg);
+    url(/img/destinations/maindenmark.jpg);
 }
 
 /* Destination modal */

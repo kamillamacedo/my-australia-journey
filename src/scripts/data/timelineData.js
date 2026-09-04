@@ -3,7 +3,7 @@ export const comments = [
         id: "perth-arrival",
         title:"Arrival in Perth",
         date: "October 2009",
-        img: "./img/timeline-perth.jpg",
+        img: "/img/timeline-perth.jpg",
         comment: `In October 2009, I arrived in Perth, Western Australia, and was immediately captivated by the city's vibrant atmosphere and stunning natural beauty.
 
         I was 18 years old—turning 19 in December of that year—and my English wasn't very good at the time. As it was my first experience overseas, I still vividly remember the mix of excitement and nervousness I felt.
@@ -16,7 +16,7 @@ export const comments = [
         id: "swan-river",
         title: "Kayaking on the Swan River",
         date: "December 2009",
-        img: "./img/timeline-swanriver.JPG",
+        img: "/img/timeline-swanriver.JPG",
         comment: `During my time in Perth, I had the opportunity to go kayaking on the Swan River with Leone and Kiely, a good friend of ours. The Swan River is a hub for recreational activities such as boating and fishing, and I made sure to partake in some of these experiences. 
 
         It was a beautiful day; we went to his place, grabbed the kayaks, and headed to the river, which winds its way through the city and offers breathtaking views of the surrounding landscapes. I remember that halfway through our trip, Kiely suddenly told me that there were sharks in the river. That information came as a huge shock to me. At that time, I had never thought sharks could live in rivers, but apparently, the Swan River is a natural habitat for bull sharks—a species that tolerates low-salinity and freshwater environments. Despite the scare, it was a very informative experience and a wonderful way to connect with nature and appreciate the beauty of Western Australia.`
@@ -25,7 +25,7 @@ export const comments = [
         id:"new-years-eve",
         title:"New Year's Eve Concert (Luciana & Bodyrox)",
         date:"December 2009",
-        img:"./img/timeline-luciana.JPG",
+        img:"/img/timeline-luciana.JPG",
         comment: `I had never been the one to celebrate New Year's Eve or Christmas, but in 2009, I put all that aside and decided to celebrate. I remember that a few weeks prior, I received a flyer somewhere in the city about a New Year's concert that would take place at Metro City, a superclub located in Northbridge, Perth. And that show wasn't just like any other because I am a huge fan of the artists who were playing: Luciana Caporaso, the queen of electropop, along with Bodyrox. At that time, I used to listen to her songs non-stop. 
 
         I didn't have anyone to go with me because all of my friends had other plans, but I decided to go anyway; it was too big of an opportunity for me to miss. So, I went there all by myself, and the funny thing was that there were a lot of people in the same situation. I made a few friends from New Zealand, and we had a very nice night enjoying the concert and later walking around the city. It was an amazing night.`,
@@ -34,7 +34,7 @@ export const comments = [
         id: "australia-day",
         title: "Australia Day at Kings Park",
         date: "January 2010",
-        img:"./img/timeline-kings.JPG",
+        img:"/img/timeline-kings.JPG",
         comment: `On Australia Day 2010, I had the pleasure of participating in the vibrant celebrations that took place across Perth. Leone's family, friends, and I went to Kings Park, a huge park with a stunning view of the Perth cityscape, full of beautiful gardens and surrounded by unique flora. 
 
         I remember there were so many people there, everyone dressed in the colors of the Australian flag, having fun with their loved ones while celebrating. There were even people with tents, as the celebration would last for the whole day.
@@ -45,7 +45,7 @@ export const comments = [
         id: "cottesloe-beach",
         title: "First Visit to Cottesloe Beach",
         date: "March 2010",
-        img: "./img/timeline-cottesloe.JPG",
+        img: "/img/timeline-cottesloe.JPG",
         comment: `In March 2010, I visited Cottesloe Beach, one of Perth's most famous beaches, known for its clear waters, white sand, and stunning sunsets. To my surprise and luck, the famous annual exhibition 'Sculpture by the Sea' was taking place right there along the shoreline.
 
         The sculptures were beautiful and had such vivid colors that they contrasted perfectly with the landscape, making everything look even more beautiful. The sculptures also had a touch of interactivity, allowing you to see through certain parts and take creative pictures. 
@@ -56,7 +56,7 @@ export const comments = [
         id: "lady-gaga-concert",
         title: "Lady Gaga Concert in Perth",
         date: "April 2010",
-        img: "./img/timeline-ladygaga.JPG",
+        img: "/img/timeline-ladygaga.JPG",
         comment: `In April 2010, I had the incredible opportunity to attend a Lady Gaga concert for The Monster Ball Tour in Perth at the Burswood Dome, a huge arena used for sports and entertainment that I recently learned has been demolished. 
 
         The energy and excitement in the air were electric as each minute passed, and I could see fans from all over gathered to witness the pop sensation's performance. 
@@ -67,7 +67,7 @@ export const comments = [
         id: "lancelin-camping",
         title: "Camping Trip at Lancelin Beach",
         date: "June 2010",
-        img: "./img/timeline-lancelin.JPG",
+        img: "/img/timeline-lancelin.JPG",
         comment: `In June 2010, a few of my beautiful friends from school and I embarked on a camping trip to Lancelin, Western Australia, where I had the chance to experience beach camping for the first time. It was an amazing day; we loaded up the cars with a couple of tents and food, and went straight to the beach.
 
         Once there, I marveled at the breathtaking beauty of the Lancelin Sand Dunes, which provided an exhilarating adventure as I tried my hand at sandboarding for the first time and explored the unique landscape. 
@@ -78,7 +78,7 @@ export const comments = [
         id: "hillarys-boat-harbour",
         title: "Hillarys Boat Harbour Visit",
         date: "July 2010",
-        img: "./img/timeline-hillarys.JPG",
+        img: "/img/timeline-hillarys.JPG",
         comment: `In October 2009, I visited Hillarys Boat Harbour in Perth—a popular marina and tourist destination—with my friend Valentine. I enjoyed exploring the various shops, restaurants, and cafes that lined the harbour, as well as taking in the beautiful views of the boats and yachts docked in the marina. 
         
         That day, we ate fish and chips at the harbour, enjoyed the sunset at the amazing Breakwater pub, and visited the Aquarium of Western Australia (AQWA). There, we had the chance to observe the diverse marine life and learn about the region's unique aquatic ecosystems. 
@@ -89,7 +89,7 @@ export const comments = [
         id: "whale-experience",
         title: "Boat Trip to an Island (Dead Whale Experience)",
         date: "September 2010",
-        img: "./img/timeline-whale.JPG",
+        img: "/img/timeline-whale.JPG",
         comment: `Leone would often take me boating on her brother's boat. We would see different landscapes, dive, swim with seals, and explore little islands along the coast.
         
         During one of those trips, we encountered a dead whale beached on one of those islands. I remember that day very vividly because I have always had a passion for whales — these huge, beautiful creatures that, despite their giant size, give us a sense of something delicate.
@@ -101,7 +101,7 @@ export const comments = [
         id: "sandalford-wines",
         title: "Visit to Sandalford Wines",
         date: "October 2010",
-        img: "./img/timeline-wine.JPG",
+        img: "/img/timeline-wine.JPG",
         comment: `During my time in Perth, I had the opportunity to visit Sandalford Wines, a renowned winery located in the Swan Valley, the oldest wine region in Western Australia. The experience was truly memorable, as I got to explore the vineyards, learn about the winemaking process, and indulge in wine tasting sessions.
         
         The picturesque landscape and the warm hospitality of the staff made it a delightful visit. I particularly enjoyed sampling their signature wines and discovering new flavors. 
@@ -112,7 +112,7 @@ export const comments = [
         id: "denmark-trip",
         title: "Trip to Denmark, WA",
         date: "November 2010",
-        img: "./img/timeline-denmark.JPG",
+        img: "/img/timeline-denmark.JPG",
         comment: `I embarked on a memorable trip to Denmark, a charming town in the Great Southern region of Western Australia. The journey started when my friends Daniel and Felipe invited me to go. We rented a cottage in the middle of the woods and stayed there for a few days with a group of friends. 
         
         The place was filled with breathtaking landscapes, from pristine beaches to lush forests. There, I had the chance to explore the local wineries, indulge in outdoor activities like hiking, visit animal farms, and immerse myself in the vibrant Valley of the Giants Tree Top Walk — a place where the ancient Red Tingle trees grow, allowing people to walk on a long, high bridge that connects the treetops. 
@@ -123,7 +123,7 @@ export const comments = [
         id: "farewell-party",
         title: "Farewell Party",
         date: "December 2010",
-        img: "./img/timeline-farewell.jpg",
+        img: "/img/timeline-farewell.jpg",
         comment: `December 2010 was the time to say goodbye. Leone, Mary, and Marina arranged a surprise farewell party at Leone's place. I remember Mary was responsible for taking me out of the house so they could arrange everything, and in order to do that, she took me to play snooker. When we got back home, all the beautiful friends I had made during my journey were there. Of course, after a little over a year, many important people I met had already come and gone. But I remember that despite this, the people who were there made me feel loved and like the luckiest person to have met them. That was one of the most emotional days I ever had; the time to say goodbye had arrived.
         
         The event was filled with laughter, heartfelt conversations, and a sense of nostalgia as we reminisced about the wonderful memories we had created together. We even had a 'food fight'—that was something Leo chose to do for me because she knew it was something I would often do with my friends at social gatherings. For me, she chose to say goodbye in a way that I wouldn't forget; for the last time, she allowed me to do something that was present in many moments of joy with my loved ones. It was a bittersweet moment; while I was excited about going back home and getting together with my family after such a long time away, I was also saddened to say goodbye to the people who had become my new family.

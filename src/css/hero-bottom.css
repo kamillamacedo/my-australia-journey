@@ -2,7 +2,7 @@
 .hero-bottom-img {
   height: 400px;
   width: 100%;
-  background: url(../img/hero-bottom.jpg) no-repeat;
+  background: url(/img/hero-bottom.jpg) no-repeat;
   background-size: cover;
   background-position: 60% center;
 }

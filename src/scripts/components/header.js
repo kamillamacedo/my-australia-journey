@@ -2,18 +2,18 @@ const headerTemplate = `<div class="page-header">
         <a href="index.html" title="Go back to the main page">
           <img
             class="compass-logo"
-            src="./img/aj-compass-color.png"
+            src="/img/aj-compass-color.png"
             alt="Australia Journey logo's compass colored in blue and red"
           />
           <img
             class="main-logo"
-            src="./img/aj-logo-color.png"
+            src="/img/aj-logo-color.png"
             alt="Australia Journey logo colored in blue and red"
           />
         </a>
         <div class="navigation-menu">
           <button type="button" class="menu-toggle-button" aria-label="Open menu">
-            <img class="hamburger-menu" src="./img/menu.png" alt="Menu" />
+            <img class="hamburger-menu" src="/img/menu.png" alt="Menu" />
           </button>
           <nav>
             <ul class="list-links">

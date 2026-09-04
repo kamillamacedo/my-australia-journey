@@ -2,7 +2,7 @@
 .hero-img {
   height: 400px;
   width: 100%;
-  background: url(../img/hero.jpg) no-repeat;
+  background: url(/img/hero.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@
 
 /* Hero section modifiers: custom background images per page */
 .hero--about .hero-img {
-  background-image: url(../img/about-hero.jpg);
+  background-image: url(/img/about-hero.jpg);
   background-position: bottom;
 }
 

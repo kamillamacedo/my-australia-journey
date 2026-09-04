@@ -3,7 +3,7 @@ const footerTemplate = `<div class="page-footer">
           <a href="index.html" title="Go back to the main page">
             <img
               class="footer-logo"
-              src="./img/bottom-logo.png"
+              src="/img/bottom-logo.png"
               alt="Australia Journey logo colored in blue and red"
             />
           </a>
@@ -14,12 +14,12 @@ const footerTemplate = `<div class="page-footer">
           <div class="footer-icons">
             <a href="https://www.linkedin.com/in/kamillamacedo" target="_blank" rel="noopener noreferrer" title="Access Kamilla Macêdo's Linkedin Profile"
               ><img
-                src="./img/linkedin-icon.png"
+                src="/img/linkedin-icon.png"
                 alt="Social media icon for Linkedin"
             /></a>
             <a href="https://github.com/kamillamacedo" target="_blank" rel="noopener noreferrer" title="Access Kamilla Macêdo's GitHub Profile"
               ><img
-                src="./img/github-icon.png"
+                src="/img/github-icon.png"
                 alt="Social media icon for GitHub"
             /></a>
             <!--
@@ -29,7 +29,7 @@ const footerTemplate = `<div class="page-footer">
               rel="noopener noreferrer"
               title="Access Kamilla Macêdo's Instagram Profile"
               ><img
-                src="./img/Instragam-icon.png"
+                src="/img/Instragam-icon.png"
                 alt="Social media icon for Instagram"
             /></a>
             -->

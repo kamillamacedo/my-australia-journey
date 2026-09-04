@@ -1,7 +1,7 @@
 export const galleryData = [
   {
     id: "photo-1",
-    src: "./img/gallery/babywallaby.JPG",
+    src: "/img/gallery/babywallaby.JPG",
     alt: "Close-up of a baby Wallaby",
     gridClass: "",
     category: "",
@@ -9,7 +9,7 @@ export const galleryData = [
   },
   {
     id: "photo-2",
-    src: "./img/gallery/busseltonJetty4.JPG.jpeg",
+    src: "/img/gallery/busseltonJetty4.JPG.jpeg",
     alt: "Beach park with yellow tents",
     gridClass: "",
     category: "",
@@ -17,7 +17,7 @@ export const galleryData = [
   },
   {
     id: "photo-3",
-    src: "./img/gallery/brownfrog.JPG",
+    src: "/img/gallery/brownfrog.JPG",
     alt: "A brown frog on a branch at night",
     gridClass: "",
     category: "",
@@ -25,7 +25,7 @@ export const galleryData = [
   },
   {
     id: "photo-4",
-    src: "./img/gallery/perthCity3.jpeg",
+    src: "/img/gallery/perthCity3.jpeg",
     alt: "Perth city skyline across the river",
     gridClass: "grid-w2",
     category: "",
@@ -33,7 +33,7 @@ export const galleryData = [
   },
   {
     id: "photo-5",
-    src: "./img/gallery/meDiving.jpeg",
+    src: "/img/gallery/meDiving.jpeg",
     alt: "Close-up of me snorkeling",
     gridClass: "",
     category: "",
@@ -41,7 +41,7 @@ export const galleryData = [
   },
   {
     id: "photo-6",
-    src: "./img/gallery/cottesloestatue.jpg",
+    src: "/img/gallery/cottesloestatue.jpg",
     alt: "Ocean water with a rocky breakwater and a sculpture statue",
     gridClass: "",
     category: "",
@@ -49,7 +49,7 @@ export const galleryData = [
   },
   {
     id: "photo-7",
-    src: "./img/gallery/dogs.JPG",
+    src: "/img/gallery/dogs.JPG",
     alt: "Two German Shepherd dogs lying on the grass",
     gridClass: "grid-h2",
     category: "",
@@ -57,7 +57,7 @@ export const galleryData = [
   },
   {
     id: "photo-8",
-    src: "./img/gallery/fishing.JPG",
+    src: "/img/gallery/fishing.JPG",
     alt: "Leone fishing in the ocean during sunset",
     gridClass: "",
     category: "",
@@ -65,7 +65,7 @@ export const galleryData = [
   },
   {
     id: "photo-9",
-    src: "./img/gallery/flags.jpg",
+    src: "/img/gallery/flags.jpg",
     alt: "Colorful flags waving on a beach",
     gridClass: "",
     category: "",
@@ -73,7 +73,7 @@ export const galleryData = [
   },
   {
     id: "photo-10",
-    src: "./img/gallery/flowers.JPG",
+    src: "/img/gallery/flowers.JPG",
     alt: "Close-up of white flowers",
     gridClass: "grid-h2",
     category: "",
@@ -81,7 +81,7 @@ export const galleryData = [
   },
   {
     id: "photo-11",
-    src: "./img/gallery/givemeahand.jpg",
+    src: "/img/gallery/givemeahand.jpg",
     alt: "Child playing on a sandy beach by the ocean",
     gridClass: "",
     category: "",
@@ -89,7 +89,7 @@ export const galleryData = [
   },
   {
     id: "photo-12",
-    src: "./img/gallery/greenfrog.JPG",
+    src: "/img/gallery/greenfrog.JPG",
     alt: "Green tree frog hiding inside a leaf",
     gridClass: "",
     category: "",
@@ -97,7 +97,7 @@ export const galleryData = [
   },
   {
     id: "photo-13",
-    src: "./img/gallery/hillarysstatue.JPG",
+    src: "/img/gallery/hillarysstatue.JPG",
     alt: "Dolphin statue near the coast under a blue sky",
     gridClass: "grid-h2",
     category: "",
@@ -105,7 +105,7 @@ export const galleryData = [
   },
   {
     id: "photo-14",
-    src: "./img/gallery/jellyfish.JPG",
+    src: "/img/gallery/jellyfish.JPG",
     alt: "Yellow jellyfish swimming in an aquarium",
     gridClass: "",
     category: "",
@@ -113,7 +113,7 @@ export const galleryData = [
   },
   {
     id: "photo-15",
-    src: "./img/gallery/kagaroo.JPG",
+    src: "/img/gallery/kagaroo.JPG",
     alt: "Close-up of a kangaroo looking at the camera",
     gridClass: "grid-h2",
     category: "",
@@ -121,7 +121,7 @@ export const galleryData = [
   },
   {
     id: "photo-16",
-    src: "./img/gallery/kangaroos.JPG",
+    src: "/img/gallery/kangaroos.JPG",
     alt: "Two kangaroos standing under trees",
     gridClass: "",
     category: "",
@@ -129,7 +129,7 @@ export const galleryData = [
   },
   {
     id: "photo-17",
-    src: "./img/gallery/koala.JPG",
+    src: "/img/gallery/koala.JPG",
     alt: "Close-up of a koala sitting in a tree",
     gridClass: "",
     category: "",
@@ -137,7 +137,7 @@ export const galleryData = [
   },
   {
     id: "photo-18",
-    src: "./img/gallery/lighthouse.JPG",
+    src: "/img/gallery/lighthouse.JPG",
     alt: "Metal lighthouse structure on rocks next to the calm ocean",
     gridClass: "grid-h2",
     category: "",
@@ -145,7 +145,7 @@ export const galleryData = [
   },
   {
     id: "photo-19",
-    src: "./img/gallery/meandwallaby.JPG",
+    src: "/img/gallery/meandwallaby.JPG",
     alt: "Me holding a small wallaby wrapped in a blanket",
     gridClass: "",
     category: "",
@@ -153,7 +153,7 @@ export const galleryData = [
   },
   {
     id: "photo-20",
-    src: "./img/gallery/perthCity4.jpeg",
+    src: "/img/gallery/perthCity4.jpeg",
     alt: "Tall modern skyscraper viewed through tree branches",
     gridClass: "",
     category: "",
@@ -161,7 +161,7 @@ export const galleryData = [
   },
   {
     id: "photo-21",
-    src: "./img/gallery/meholdingon.JPG",
+    src: "/img/gallery/meholdingon.JPG",
     alt: "Me smiling in a blue tracksuit looking through a wooden fence",
     gridClass: "grid-w2",
     category: "",
@@ -169,7 +169,7 @@ export const galleryData = [
   },
   {
     id: "photo-22",
-    src: "./img/gallery/rambo.JPG",
+    src: "/img/gallery/rambo.JPG",
     alt: "Close-up portrait of a German Shepherd dog",
     gridClass: "",
     category: "",
@@ -177,7 +177,7 @@ export const galleryData = [
   },
   {
     id: "photo-23",
-    src: "./img/gallery/reflection.JPG",
+    src: "/img/gallery/reflection.JPG",
     alt: "Water reflection landscape",
     gridClass: "",
     category: "",
@@ -185,7 +185,7 @@ export const galleryData = [
   },
   {
     id: "photo-24",
-    src: "./img/gallery/perthCity5.jpeg",
+    src: "/img/gallery/perthCity5.jpeg",
     alt: "Modern city skyscrapers along a street under a blue sky",
     gridClass: "grid-h2",
     category: "",
@@ -193,7 +193,7 @@ export const galleryData = [
   },
   {
     id: "photo-25",
-    src: "./img/gallery/sealinthesun.JPG",
+    src: "/img/gallery/sealinthesun.JPG",
     alt: "Seal resting on a sandy beach",
     gridClass: "",
     category: "",
@@ -201,7 +201,7 @@ export const galleryData = [
   },
   {
     id: "photo-26",
-    src: "./img/gallery/sealsleeping.JPG",
+    src: "/img/gallery/sealsleeping.JPG",
     alt: "Seal sleeping on the shore among seaweed",
     gridClass: "",
     category: "",
@@ -209,7 +209,7 @@ export const galleryData = [
   },
   {
     id: "photo-27",
-    src: "./img/gallery/sealswimming.JPG",
+    src: "/img/gallery/sealswimming.JPG",
     alt: "Seal swimming swimming underwater in clear turquoise water",
     gridClass: "grid-w2",
     category: "",
@@ -217,7 +217,7 @@ export const galleryData = [
   },
   {
     id: "photo-28",
-    src: "./img/gallery/sunset.JPG",
+    src: "/img/gallery/sunset.JPG",
     alt: "Sunset over the ocean with dark clouds",
     gridClass: "",
     category: "",
@@ -225,7 +225,7 @@ export const galleryData = [
   },
   {
     id: "photo-29",
-    src: "./img/gallery/trees.JPG",
+    src: "/img/gallery/trees.JPG",
     alt: "Coastal town view with green trees and houses",
     gridClass: "",
     category: "",
@@ -233,7 +233,7 @@ export const galleryData = [
   },
   {
     id: "photo-30",
-    src: "./img/gallery/treesculpture.jpg",
+    src: "/img/gallery/treesculpture.jpg",
     alt: "Tree sculpture on a white sand beach near the water",
     gridClass: "grid-h2",
     category: "",
@@ -241,7 +241,7 @@ export const galleryData = [
   },
   {
     id: "photo-31",
-    src: "./img/gallery/twopeople.JPG",
+    src: "/img/gallery/twopeople.JPG",
     alt: "Two people sitting on the grass near a building and a pond",
     gridClass: "grid-h2",
     category: "",
@@ -249,7 +249,7 @@ export const galleryData = [
   },
   {
     id: "photo-32",
-    src: "./img/gallery/winery.JPG",
+    src: "/img/gallery/winery.JPG",
     alt: "Outdoor table and chairs overlooking a green valley",
     gridClass: "",
     category: "",
@@ -257,7 +257,7 @@ export const galleryData = [
   },
   {
     id: "photo-33",
-    src: "./img/gallery/yellowsculpture.jpg",
+    src: "/img/gallery/yellowsculpture.jpg",
     alt: "Yellow metal sculpture on the beach with the ocean behind",
     gridClass: "",
     category: "",
@@ -265,7 +265,7 @@ export const galleryData = [
   },
   {
     id: "photo-34",
-    src: "./img/gallery/australiaDayKingsPark.jpeg",
+    src: "/img/gallery/australiaDayKingsPark.jpeg",
     alt: "Crowd of people sitting on chairs at an outdoor park event",
     gridClass: "",
     category: "",
@@ -273,7 +273,7 @@ export const galleryData = [
   },
   {
     id: "photo-35",
-    src: "./img/gallery/beach.jpeg",
+    src: "/img/gallery/beach.jpeg",
     alt: "Wooden boardwalk leading to the beach",
     gridClass: "",
     category: "",
@@ -281,7 +281,7 @@ export const galleryData = [
   },
   {
     id: "photo-36",
-    src: "./img/gallery/me&Jellyfish.jpeg",
+    src: "/img/gallery/me&Jellyfish.jpeg",
     alt: "Me in front of a jellyfish aquarium",
     gridClass: "grid-w2",
     category: "",
@@ -289,7 +289,7 @@ export const galleryData = [
   },
   {
     id: "photo-37",
-    src: "./img/gallery/busseltonJetty1.JPG.jpeg",
+    src: "/img/gallery/busseltonJetty1.JPG.jpeg",
     alt: "Grassy lawn next to a calm beach in The Busselton Jetty",
     gridClass: "",
     category: "",
@@ -297,7 +297,7 @@ export const galleryData = [
   },
   {
     id: "photo-38",
-    src: "./img/gallery/clownfish.jpeg",
+    src: "/img/gallery/clownfish.jpeg",
     alt: "Close-up of two clownfishes",
     gridClass: "grid-h2",
     category: "",
@@ -305,7 +305,7 @@ export const galleryData = [
   },
   {
     id: "photo-39",
-    src: "./img/gallery/cottesloeBeach.jpeg",
+    src: "/img/gallery/cottesloeBeach.jpeg",
     alt: "Coastal street with tall pine trees",
     gridClass: "",
     category: "",
@@ -313,7 +313,7 @@ export const galleryData = [
   },
   {
     id: "photo-40",
-    src: "./img/gallery/cottesloeStreet.jpeg",
+    src: "/img/gallery/cottesloeStreet.jpeg",
     alt: "Empty street with buildings and flags under a bright sky",
     gridClass: "grid-h2",
     category: "",
@@ -321,7 +321,7 @@ export const galleryData = [
   },
   {
     id: "photo-41",
-    src: "./img/gallery/deepBlueBoat.jpeg",
+    src: "/img/gallery/deepBlueBoat.jpeg",
     alt: "Small motorboat anchored on a white sand beach",
     gridClass: "",
     category: "",
@@ -329,7 +329,7 @@ export const galleryData = [
   },
   {
     id: "photo-42",
-    src: "./img/gallery/denmarkAnimalFarm&PentlandAlpacaStud.jpeg",
+    src: "/img/gallery/denmarkAnimalFarm&PentlandAlpacaStud.jpeg",
     alt: "Me feeding a small kangaroo on grass",
     gridClass: "",
     category: "",
@@ -337,7 +337,7 @@ export const galleryData = [
   },
   {
     id: "photo-43",
-    src: "./img/gallery/duck.jpeg",
+    src: "/img/gallery/duck.jpeg",
     alt: "A brown duck standing on green grass near a pond",
     gridClass: "",
     category: "",
@@ -345,7 +345,7 @@ export const galleryData = [
   },
   {
     id: "photo-44",
-    src: "./img/gallery/dog.jpeg",
+    src: "/img/gallery/dog.jpeg",
     alt: "Close-up of a small light brown dog",
     gridClass: "",
     category: "",
@@ -353,7 +353,7 @@ export const galleryData = [
   },
   {
     id: "photo-45",
-    src: "./img/gallery/greensPool.jpeg",
+    src: "/img/gallery/greensPool.jpeg",
     alt: "Rocky coastline next to a clear blue ocean",
     gridClass: "",
     category: "",
@@ -361,7 +361,7 @@ export const galleryData = [
   },
   {
     id: "photo-46",
-    src: "./img/gallery/island.jpeg",
+    src: "/img/gallery/island.jpeg",
     alt: "Scenic landscape of a rocky coast and turquoise water",
     gridClass: "grid-w2",
     category: "",
@@ -369,7 +369,7 @@ export const galleryData = [
   },
   {
     id: "photo-47",
-    src: "./img/gallery/hillarysBoatHarbour.jpeg",
+    src: "/img/gallery/hillarysBoatHarbour.jpeg",
     alt: "Beach park with tall palm trees and rock formations",
     gridClass: "grid-h2",
     category: "",
@@ -377,7 +377,7 @@ export const galleryData = [
   },
   {
     id: "photo-48",
-    src: "./img/gallery/meAtAqwa.jpeg",
+    src: "/img/gallery/meAtAqwa.jpeg",
     alt: "Me sitting next to a large whale tail sculpture",
     gridClass: "",
     category: "",
@@ -385,7 +385,7 @@ export const galleryData = [
   },
   {
     id: "photo-49",
-    src: "./img/gallery/haroldBoasGardens.jpeg",
+    src: "/img/gallery/haroldBoasGardens.jpeg",
     alt: "Large green tree with sprawling branches in sunlight",
     gridClass: "grid-w2",
     category: "",
@@ -393,7 +393,7 @@ export const galleryData = [
   },
   {
     id: "photo-50",
-    src: "./img/gallery/busseltonJetty6.JPG.jpeg",
+    src: "/img/gallery/busseltonJetty6.JPG.jpeg",
     alt: "Long pier and blue building on a sandy beach",
     gridClass: "",
     category: "",
@@ -401,7 +401,7 @@ export const galleryData = [
   },
   {
     id: "photo-51",
-    src: "./img/gallery/matt.jpg",
+    src: "/img/gallery/matt.jpg",
     alt: "Silhouette of a person leaning forward against bright light",
     gridClass: "",
     category: "",
@@ -409,7 +409,7 @@ export const galleryData = [
   },
   {
     id: "photo-52",
-    src: "./img/gallery/redBackSpider.jpeg",
+    src: "/img/gallery/redBackSpider.jpeg",
     alt: "Red back spider crawling on a yellow textured surface",
     gridClass: "",
     category: "",
@@ -417,7 +417,7 @@ export const galleryData = [
   },
   {
     id: "photo-53",
-    src: "./img/gallery/kid&Sunset.jpeg",
+    src: "/img/gallery/kid&Sunset.jpeg",
     alt: "Silhouette of a person against a bright sunset over the ocean",
     gridClass: "grid-w2",
     category: "",
@@ -425,7 +425,7 @@ export const galleryData = [
   },
   {
     id: "photo-54",
-    src: "./img/gallery/busseltonJetty.JPG",
+    src: "/img/gallery/busseltonJetty.JPG",
     alt: "Wide white sand beach with a long wooden pier in the distance",
     gridClass: "grid-h2",
     category: "",
@@ -433,7 +433,7 @@ export const galleryData = [
   },
   {
     id: "photo-55",
-    src: "./img/gallery/hillarysStreet.jpeg",
+    src: "/img/gallery/hillarysStreet.jpeg",
     alt: "Paved residential street curving uphill under a bright sky",
     gridClass: "",
     category: "",
@@ -441,7 +441,7 @@ export const galleryData = [
   },
   {
     id: "photo-56",
-    src: "./img/gallery/duck1.jpeg",
+    src: "/img/gallery/duck1.jpeg",
     alt: "Duck swimming in a calm pond with green reflections",
     gridClass: "",
     category: "",
@@ -449,7 +449,7 @@ export const galleryData = [
   },
   {
     id: "photo-57",
-    src: "./img/gallery/cottesloe.jpg",
+    src: "/img/gallery/cottesloe.jpg",
     alt: "Rocky shoreline with a beach and buildings in the background",
     gridClass: "",
     category: "",
@@ -457,7 +457,7 @@ export const galleryData = [
   },
   {
     id: "photo-58",
-    src: "./img/gallery/seaHare.jpeg",
+    src: "/img/gallery/seaHare.jpeg",
     alt: "Close-up of a yellow sea hare underwater",
     gridClass: "grid-w2",
     category: "",
@@ -465,7 +465,7 @@ export const galleryData = [
   },
   {
     id: "photo-59",
-    src: "./img/gallery/meKayaking.jpeg",
+    src: "/img/gallery/meKayaking.jpeg",
     alt: "Me smiling in a yellow kayak on a river",
     gridClass: "grid-w2",
     category: "",
@@ -473,7 +473,7 @@ export const galleryData = [
   },
   {
     id: "photo-60",
-    src: "./img/gallery/perthCity.jpeg",
+    src: "/img/gallery/perthCity.jpeg",
     alt: "Perth city skyline across a wide river under a cloudy sky",
     gridClass: "",
     category: "",
@@ -481,7 +481,7 @@ export const galleryData = [
   },
   {
     id: "photo-61",
-    src: "./img/gallery/perthStreet.jpeg",
+    src: "/img/gallery/perthStreet.jpeg",
     alt: "Highway road leading toward a city in the distance",
     gridClass: "",
     category: "",
@@ -489,7 +489,7 @@ export const galleryData = [
   },
   {
     id: "photo-62",
-    src: "./img/gallery/prayingMantis.jpeg",
+    src: "/img/gallery/prayingMantis.jpeg",
     alt: "Praying mantis crawling on a person's hand",
     gridClass: "grid-h2",
     category: "",
@@ -497,7 +497,7 @@ export const galleryData = [
   },
   {
     id: "photo-63",
-    src: "./img/gallery/rabbit.jpeg",
+    src: "/img/gallery/rabbit.jpeg",
     alt: "Close-up of a light brown rabbit sitting on hay",
     gridClass: "",
     category: "",
@@ -505,7 +505,7 @@ export const galleryData = [
   },
   {
     id: "photo-64",
-    src: "./img/gallery/meAtHillarysBeach.jpeg",
+    src: "/img/gallery/meAtHillarysBeach.jpeg",
     alt: "Me standing on a white sand beach near the ocean",
     gridClass: "grid-h2",
     category: "",
@@ -513,7 +513,7 @@ export const galleryData = [
   },
   {
     id: "photo-65",
-    src: "./img/gallery/mazzolettiBeach.jpeg",
+    src: "/img/gallery/mazzolettiBeach.jpeg",
     alt: "Empty white sand beach with a green hill in the background",
     gridClass: "",
     category: "",
@@ -521,7 +521,7 @@ export const galleryData = [
   },
   {
     id: "photo-66",
-    src: "./img/gallery/bluewren.JPG",
+    src: "/img/gallery/bluewren.JPG",
     alt: "Small Blue Wren bird standing on the ground",
     gridClass: "grid-w2",
     category: "",
@@ -529,7 +529,7 @@ export const galleryData = [
   },
   {
     id: "photo-67",
-    src: "./img/gallery/theDaveEvans BicentennialTree.jpeg",
+    src: "/img/gallery/theDaveEvans BicentennialTree.jpeg",
     alt: "The dave evans bicentennial tree - a tall tree with a small platform",
     gridClass: "grid-h2",
     category: "",
@@ -537,7 +537,7 @@ export const galleryData = [
   },
   {
     id: "photo-68",
-    src: "./img/gallery/australiaDayKingsPark1.jpeg",
+    src: "/img/gallery/australiaDayKingsPark1.jpeg",
     alt: "Australian flag flying high over a coastal city",
     gridClass: "",
     category: "",
@@ -545,7 +545,7 @@ export const galleryData = [
   },
   {
     id: "photo-69",
-    src: "./img/gallery/sadkaiser.JPG",
+    src: "/img/gallery/sadkaiser.JPG",
     alt: "Close-up portrait of a German Shepherd puppy",
     gridClass: "",
     category: "",
@@ -553,7 +553,7 @@ export const galleryData = [
   },
   {
     id: "photo-70",
-    src: "./img/gallery/meAtGreensPool.jpeg",
+    src: "/img/gallery/meAtGreensPool.jpeg",
     alt: "Me standing on large rocks by a turquoise ocean bay",
     gridClass: "grid-w2",
     category: "",
@@ -561,7 +561,7 @@ export const galleryData = [
   },
   {
     id: "photo-71",
-    src: "./img/gallery/haroldBoasGardens1.jpeg",
+    src: "/img/gallery/haroldBoasGardens1.jpeg",
     alt: "Wooden park bench surrounded by green trees and bushes",
     gridClass: "",
     category: "",
@@ -569,7 +569,7 @@ export const galleryData = [
   },
   {
     id: "photo-72",
-    src: "./img/gallery/hillarysBoatHarbour1.jpeg",
+    src: "/img/gallery/hillarysBoatHarbour1.jpeg",
     alt: "Large waterfront building with boats docked in the harbor",
     gridClass: "",
     category: "",
@@ -577,7 +577,7 @@ export const galleryData = [
   },
   {
     id: "photo-73",
-    src: "./img/gallery/jimmy.jpg",
+    src: "/img/gallery/jimmy.jpg",
     alt: "Silhouette of a person wearing a hat against a bright sunset over the ocean",
     gridClass: "grid-h2",
     category: "",
@@ -585,7 +585,7 @@ export const galleryData = [
   },
   {
     id: "photo-74",
-    src: "./img/gallery/redBackSpider1.jpeg",
+    src: "/img/gallery/redBackSpider1.jpeg",
     alt: "Red back spider crawling on a textured yellow surface",
     gridClass: "grid-w2",
     category: "",
@@ -593,7 +593,7 @@ export const galleryData = [
   },
   {
     id: "photo-75",
-    src: "./img/gallery/perthCity1.jpeg",
+    src: "/img/gallery/perthCity1.jpeg",
     alt: "City skyline across a river viewed from a sandy beach",
     gridClass: "",
     category: "",
@@ -601,7 +601,7 @@ export const galleryData = [
   },
   {
     id: "photo-76",
-    src: "./img/gallery/silverGull.jpeg",
+    src: "/img/gallery/silverGull.jpeg",
     alt: "Seagulls perched on a wooden fence next to a coastal path",
     gridClass: "",
     category: "",
@@ -609,7 +609,7 @@ export const galleryData = [
   },
   {
     id: "photo-77",
-    src: "./img/gallery/hillarysStreet1.jpeg",
+    src: "/img/gallery/hillarysStreet1.jpeg",
     alt: "View of a quiet street through a round blue glass frame",
     gridClass: "",
     category: "",
@@ -617,7 +617,7 @@ export const galleryData = [
   },
   {
     id: "photo-78",
-    src: "./img/gallery/busseltonJetty5.JPG.jpeg",
+    src: "/img/gallery/busseltonJetty5.JPG.jpeg",
     alt: "Grassy beach park overlooking a long wooden pier in the ocean",
     gridClass: "grid-w2",
     category: "",
@@ -625,7 +625,7 @@ export const galleryData = [
   },
   {
     id: "photo-79",
-    src: "./img/gallery/haroldBoasGardens2.jpeg",
+    src: "/img/gallery/haroldBoasGardens2.jpeg",
     alt: "Calm pond in a green park surrounded by trees",
     gridClass: "",
     category: "",
@@ -633,7 +633,7 @@ export const galleryData = [
   },
   {
     id: "photo-80",
-    src: "./img/gallery/hillarysStreet2.jpeg",
+    src: "/img/gallery/hillarysStreet2.jpeg",
     alt: "Empty suburban street with a red bike lane under a blue sky",
     gridClass: "",
     category: "",
@@ -641,7 +641,7 @@ export const galleryData = [
   },
   {
     id: "photo-81",
-    src: "./img/gallery/stadium.jpeg",
+    src: "/img/gallery/stadium.jpeg",
     alt: "Empty green stadium seats overlooking a sports field",
     gridClass: "",
     category: "",
@@ -649,7 +649,7 @@ export const galleryData = [
   },
   {
     id: "photo-82",
-    src: "./img/gallery/me4.jpeg",
+    src: "/img/gallery/me4.jpeg",
     alt: "Me in a blue jacket and scarf posing inside a winery",
     gridClass: "",
     category: "",
@@ -657,7 +657,7 @@ export const galleryData = [
   },
   {
     id: "photo-83",
-    src: "./img/gallery/clouds.JPG",
+    src: "/img/gallery/clouds.JPG",
     alt: "Beautiful  clouds illuminated by the sunset",
     gridClass: "grid-w2",
     category: "",
@@ -665,7 +665,7 @@ export const galleryData = [
   },
   {
     id: "photo-84",
-    src: "./img/gallery/brownfrog1.jpeg",
+    src: "/img/gallery/brownfrog1.jpeg",
     alt: "Small frog sitting on a tree trunk at night",
     gridClass: "grid-h2",
     category: "",
@@ -673,7 +673,7 @@ export const galleryData = [
   },
   {
     id: "photo-85",
-    src: "./img/gallery/me1.jpeg",
+    src: "/img/gallery/me1.jpeg",
     alt: "Me standing outdoors with city lights at night",
     gridClass: "",
     category: "",
@@ -681,7 +681,7 @@ export const galleryData = [
   },
   {
     id: "photo-86",
-    src: "./img/gallery/island2.jpeg",
+    src: "/img/gallery/island2.jpeg",
     alt: "Rocky cliff overlooking clear shallow coastal water",
     gridClass: "grid-w2",
     category: "",
@@ -689,7 +689,7 @@ export const galleryData = [
   },
   {
     id: "photo-87",
-    src: "./img/gallery/kangaroo1.jpeg",
+    src: "/img/gallery/kangaroo1.jpeg",
     alt: "Close-up of a kangaroo eating a red rose",
     gridClass: "",
     category: "",
@@ -697,7 +697,7 @@ export const galleryData = [
   },
   {
     id: "photo-88",
-    src: "./img/gallery/ladyGaga.jpeg",
+    src: "/img/gallery/ladyGaga.jpeg",
     alt: "Lady gaga with blonde hair performing in a white costume",
     gridClass: "",
     category: "",
@@ -705,7 +705,7 @@ export const galleryData = [
   },
   {
     id: "photo-89",
-    src: "./img/gallery/luciana.jpeg",
+    src: "/img/gallery/luciana.jpeg",
     alt: "Luciana performing on stage holding a microphone",
     gridClass: "",
     category: "",
@@ -713,7 +713,7 @@ export const galleryData = [
   },
   {
     id: "photo-90",
-    src: "./img/gallery/deadKangaroo.jpeg",
+    src: "/img/gallery/deadKangaroo.jpeg",
     alt: "Dead kangaroo on rocky ground",
     gridClass: "grid-w2",
     category: "",
@@ -721,7 +721,7 @@ export const galleryData = [
   },
   {
     id: "photo-91",
-    src: "./img/gallery/meSandboarding.jpeg",
+    src: "/img/gallery/meSandboarding.jpeg",
     alt: "Me sandboarding down a white sand dune",
     gridClass: "grid-h2",
     category: "",
@@ -729,7 +729,7 @@ export const galleryData = [
   },
   {
     id: "photo-92",
-    src: "./img/gallery/redFlowers.jpeg",
+    src: "/img/gallery/redFlowers.jpeg",
     alt: "Close-up of bright red flowers",
     gridClass: "",
     category: "",
@@ -737,7 +737,7 @@ export const galleryData = [
   },
   {
     id: "photo-93",
-    src: "./img/gallery/perthCity2.jpeg",
+    src: "/img/gallery/perthCity2.jpeg",
     alt: "City street with cars and modern skyscrapers under clouds",
     gridClass: "",
     category: "",
@@ -745,7 +745,7 @@ export const galleryData = [
   },
   {
     id: "photo-94",
-    src: "./img/gallery/westCoastEaglesTeam.jpeg",
+    src: "/img/gallery/westCoastEaglesTeam.jpeg",
     alt: "West coast eagles team on a green sports field",
     gridClass: "",
     category: "",
@@ -753,7 +753,7 @@ export const galleryData = [
   },
   {
     id: "photo-95",
-    src: "./img/gallery/luciana1.jpeg",
+    src: "/img/gallery/luciana1.jpeg",
     alt: "Luciana performing live on stage with purple lights",
     gridClass: "grid-h2",
     category: "",
@@ -761,7 +761,7 @@ export const galleryData = [
   },
   {
     id: "photo-96",
-    src: "./img/gallery/ladyGaga2.jpeg",
+    src: "/img/gallery/ladyGaga2.jpeg",
     alt: "Lady gaga in a leopard print jumpsuit performing on stage",
     gridClass: "grid-h2",
     category: "",
@@ -769,7 +769,7 @@ export const galleryData = [
   },
   {
     id: "photo-97",
-    src: "./img/gallery/island1.jpeg",
+    src: "/img/gallery/island1.jpeg",
     alt: "Clear shallow water next to a rocky coastal cliff",
     gridClass: "",
     category: "",
@@ -777,7 +777,7 @@ export const galleryData = [
   },
   {
     id: "photo-98",
-    src: "./img/gallery/me5.jpeg",
+    src: "/img/gallery/me5.jpeg",
     alt: "Me leaning on a wooden railing with the ocean behind",
     gridClass: "grid-w2",
     category: "",
@@ -785,7 +785,7 @@ export const galleryData = [
   },
   {
     id: "photo-99",
-    src: "./img/gallery/winery.jpeg",
+    src: "/img/gallery/winery.jpeg",
     alt: "Outdoor restaurant seating area under green grapevines",
     gridClass: "grid-w2",
     category: "",
@@ -793,7 +793,7 @@ export const galleryData = [
   },
   {
     id: "photo-100",
-    src: "./img/gallery/me2.jpeg",
+    src: "/img/gallery/me2.jpeg",
     alt: "Me looking at a stone monument",
     gridClass: "",
     category: "",
@@ -801,7 +801,7 @@ export const galleryData = [
   },
   {
     id: "photo-101",
-    src: "./img/gallery/stadium1.jpeg",
+    src: "/img/gallery/stadium1.jpeg",
     alt: "Crowded outdoor stadium grandstand with flags under a blue sky",
     gridClass: "",
     category: "",
@@ -809,7 +809,7 @@ export const galleryData = [
   },
   {
     id: "photo-102",
-    src: "./img/gallery/yellowFlowers.jpeg",
+    src: "/img/gallery/yellowFlowers.jpeg",
     alt: "Close-up of bright yellow daisy flowers",
     gridClass: "grid-w2",
     category: "",
@@ -817,7 +817,7 @@ export const galleryData = [
   },
   {
     id: "photo-103",
-    src: "./img/gallery/me7.jpeg",
+    src: "/img/gallery/me7.jpeg",
     alt: "Me in a blue tracksuit leaning on a wooden railing by the ocean",
     gridClass: "grid-h2",
     category: "",
@@ -825,7 +825,7 @@ export const galleryData = [
   },
   {
     id: "photo-104",
-    src: "./img/gallery/duck2.jpeg",
+    src: "/img/gallery/duck2.jpeg",
     alt: "Hand reaching out to a duck on green grass",
     gridClass: "",
     category: "",
@@ -833,7 +833,7 @@ export const galleryData = [
   },
   {
     id: "photo-105",
-    src: "./img/gallery/ladyGaga1.jpeg",
+    src: "/img/gallery/ladyGaga1.jpeg",
     alt: "Lady Gaga and her performers on stage wearing black outfits",
     gridClass: "",
     category: "",
@@ -841,7 +841,7 @@ export const galleryData = [
   },
   {
     id: "photo-106",
-    src: "./img/gallery/me3.jpeg",
+    src: "/img/gallery/me3.jpeg",
     alt: "Me smiling in shallow ocean water near rocks",
     gridClass: "grid-w2",
     category: "",
