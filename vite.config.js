@@ -5,9 +5,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "index.html"),
-        gallery: resolve(__dirname, "gallery.html"),
-        about: resolve(__dirname, "about.html"),
+        main: resolve(import.meta.dirname, "index.html"),
+        gallery: resolve(import.meta.dirname, "gallery.html"),
+        about: resolve(import.meta.dirname, "about.html"),
       },
     },
   },
