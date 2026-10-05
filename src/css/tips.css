@@ -1,14 +1,14 @@
 /* Tips section: clickable cards and responsive layout */
 .tips-cards {
   display: flex;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   margin: 0 auto;
   gap: 24px;
 
   overflow-x: auto;
   overflow-y: hidden;
 
-  -webkit-overflow-scrolling: touch; 
+  -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
 
@@ -28,7 +28,7 @@
   border-radius: 16px;
   background-color: var(--background-secondary-color);
   border: 1px solid #ccc;
-  
+
   width: 160px;
   padding: 24px 16px;
   gap: 10px;
@@ -38,7 +38,8 @@
   color: var(--text-primary-color);
 }
 
-.tips-button:hover , .tips-button.active {
+.tips-button:hover,
+.tips-button.active {
   border: solid 2px var(--highlight-secondary-color);
 }
 
@@ -47,32 +48,32 @@
   font-weight: var(--title-weight);
 }
 
-.tips-content-panel{
- display: flex;
- flex-direction: column;
- padding: 40px 40px 30px;
- text-align: center;
- gap: 30px;
- background-color: var(--background-secondary-color);
- margin-top: 40px;
- border-radius: 15px;
+.tips-content-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 30px;
+  text-align: center;
+  gap: 30px;
+  background-color: var(--background-secondary-color);
+  margin-top: 40px;
+  border-radius: 15px;
 }
 
-.tips-panel-title{
-  color: var( --highlight-secondary-color);
+.tips-panel-title {
+  color: var(--highlight-secondary-color);
   font-weight: var(--title-weight);
   font-size: 1.5em;
 }
 
-.tips-panel-text{
+.tips-panel-text {
   line-height: 1.5;
   text-align: left;
   white-space: pre-line;
 }
 
-.tips-close-button{
+.tips-close-button {
   background-color: transparent;
-  color: var( --highlight-secondary-color);
+  color: var(--highlight-secondary-color);
 
   font-size: 20px;
   font-weight: var(--title-weight);
@@ -80,7 +81,7 @@
   text-align: center;
   text-decoration: underline;
   cursor: pointer;
-  
+
   border: none;
 
   padding: 12px 24px;
@@ -91,16 +92,33 @@
 @media (pointer: fine) {
   .tips-cards {
     scrollbar-width: auto;
-     padding-bottom: 16px; 
+    padding-bottom: 16px;
   }
 
   .tips-cards::-webkit-scrollbar {
     display: block;
     height: 8px;
   }
+}
+.tips-cards::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 1920px) {
+  .tips-button h3 {
+    font-size: 16px;
   }
-  .tips-cards::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 4px;
-    
+
+  .tips-panel-title {
+    font-size: 26px;
+  }
+
+  .tips-panel-text {
+    font-size: 18px;
+  }
+
+  .tips-close-button {
+    font-size: 22px;
+  }
 }

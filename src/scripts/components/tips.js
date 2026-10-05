@@ -6,9 +6,11 @@ const tipsText = document.querySelector(".tips-panel-text");
 
 let activeTipsButton = null;
 let activeTipsElement = null;
+let returnScrollPosition = null;
 
 export function toggleTipsPanel(tipsCard, tipsId) {
   if (activeTipsButton === null || activeTipsButton !== tipsId) {
+    returnScrollPosition = window.scrollY;
     if (activeTipsButton !== null) {
       activeTipsElement.classList.remove("active");
     }
@@ -32,6 +34,11 @@ export function closeTipsPanel() {
   activeTipsElement = null;
   activeTipsButton = null;
   clearText();
+
+  if (returnScrollPosition !== null) {
+    window.scrollTo({ top: returnScrollPosition, behavior: "instant" });
+  }
+  returnScrollPosition = null;
 }
 
 function clearText() {
