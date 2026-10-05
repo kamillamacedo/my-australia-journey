@@ -23,7 +23,7 @@
     <meta property="og:type" content="website" />
 
     <link rel="stylesheet" href="/src/css/style.css" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -423,10 +423,7 @@
           </button>
 
           <button class="tips-button" type="button" data-category="language">
-            <img
-              src="/img/tips/icon-chat.png"
-              alt="Gray icon of chat ballom"
-            />
+            <img src="/img/tips/icon-chat.png" alt="Gray icon of chat ballom" />
             <h3>Language</h3>
           </button>
 
@@ -527,11 +524,7 @@
           <a class="gallery-card" href="/img/gallery/dogs.JPG" target="_blank">
             <img src="/img/gallery/dogs.JPG" alt="Two German Shepherd dogs" />
           </a>
-          <a
-            class="gallery-card"
-            href="/img/gallery/flags.jpg"
-            target="_blank"
-          >
+          <a class="gallery-card" href="/img/gallery/flags.jpg" target="_blank">
             <img
               src="/img/gallery/flags.jpg"
               alt="Colorful flags on the beach"
@@ -592,7 +585,7 @@
 
               <input type="radio" id="rating-2" name="rating" value="2" />
               <label for="rating-2">★</label>
-              
+
               <input type="radio" id="rating-1" name="rating" value="1" />
               <label for="rating-1">★</label>
             </div>
@@ -612,15 +605,14 @@
           <button type="submit">Submit</button>
         </form>
 
-        <div class="guest-entries">
-        </div>
+        <div class="guest-entries"></div>
       </section>
       <section class="hero-bottom">
         <div class="hero-bottom-img"></div>
       </section>
     </main>
     <footer id="main-footer"></footer>
-    <dialog id="destinations-modal" class="modal">
+    <dialog id="destinations-modal" class="modal" aria-labelledby="modal-title">
       <button
         type="button"
         id="modal-close"
@@ -636,7 +628,7 @@
         </div>
         <div id="modal-gallery" class="modal__gallery"></div>
         <div class="modal-content__text">
-          <h2 id="modal-title" class="modal__title"></h2>
+          <h2 id="modal-title" class="modal__title" tabindex="-1"></h2>
           <p id="modal-subtitle" class="modal__subtitle"></p>
           <p id="modal-description" class="modal__description"></p>
           <div id="modal-tags" class="modal__tags"></div>

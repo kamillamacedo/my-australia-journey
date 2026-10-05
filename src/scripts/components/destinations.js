@@ -91,25 +91,44 @@ function openModal(destinationId) {
   const destination = destinations.find((dest) => dest.id === destinationId);
   createModalContent(destination);
   scrollPosition = window.scrollY;
+  document.documentElement.classList.add("modal-open");
+  document.body.classList.add("modal-open");
+  document.body.style.setProperty("--modal-scroll-y", `-${scrollPosition}px`);
   modal.showModal();
+  modalTitle.focus({ preventScroll: true });
   setupGalleryArrows();
 }
 
 function closeModal() {
   modal.close();
+  restorePageScroll();
+}
+
+function restorePageScroll() {
+  if (!document.body.classList.contains("modal-open")) return;
+
+  document.documentElement.classList.remove("modal-open");
+  document.body.classList.remove("modal-open");
+  document.body.style.removeProperty("--modal-scroll-y");
   window.scrollTo({
     top: scrollPosition,
     behavior: "instant",
   });
 }
 
-if (document.querySelector('.destinations-cards')) {
+if (document.querySelector(".destinations-cards")) {
   modalClose.addEventListener("click", closeModal);
+  modal.addEventListener("close", restorePageScroll);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && modal.open) {
+      event.preventDefault();
+      closeModal();
+    }
+  });
 
   window.addEventListener("resize", (e) => {
-  setupGalleryArrows();
-});
+    setupGalleryArrows();
+  });
 }
-
 
 export { openModal };
